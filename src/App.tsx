@@ -63,6 +63,7 @@ const App = () => (
           <Route path="/media" element={<MediaPage />} />
           <Route path="/campaigns" element={<CampaignsPage />} />
           <Route path="/collaborations" element={<CollaborationsPage />} />
+          <Route path="/partner" element={<PartnershipInquiryPage />} />
           <Route path="/donate" element={<DonatePage />} />
           <Route path="/volunteer" element={<VolunteerPage />} />
           <Route path="*" element={<NotFound />} />
