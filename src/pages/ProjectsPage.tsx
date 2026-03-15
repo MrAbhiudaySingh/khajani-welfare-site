@@ -76,7 +76,7 @@ const projects: Project[] = [
     title: "Brij-Sangini",
     description: "Holistic community health program empowering women through dedicated medical care, health checkup camps, and blood donation drives.",
     category: "Health",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBzQPS-endf8wqmYGXf4tPUTGDAjluEDQZ4i7ZAH0jsUtCkucXy5VC6_1AFokFEpz1qRKzx_EjXf2Im2L7WtzSpe26x57irJZAGuyKFR7trxgPq3vHzRVuRyRYIdJSrSSY3klkoKYfYks1nsfg_UxcoDEEygKSyHeDGf33Yv32QUj4rnuyakp9p04Gmu1bobhCMRxvtwf5SN42Su-_W11mxrPAr6nSaUD4eI_Y0zqotuhIy6zyNEeFDS89kS0otvS_1XK2T8172Rw8",
+    image: "/images/projects/brij-sangini-icon.jpg",
     link: "/projects/brij-sangini",
   },
   {
