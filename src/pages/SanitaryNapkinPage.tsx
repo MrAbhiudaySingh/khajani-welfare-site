@@ -79,6 +79,29 @@ const SanitaryNapkinPage = () => {
         </div>
       </section>
 
+      {/* Vending Machine Showcase */}
+      <section className="w-full bg-muted py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <Reveal variant="fade-up">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-4">
+              Our Vending Machines in Action
+            </h2>
+            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
+              Automatic sanitary napkin vending machines installed in schools — enabling girls to stay in school with dignity and confidence.
+            </p>
+          </Reveal>
+          <Reveal variant="fade-up" delay={100}>
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
+              <img
+                src="/images/projects/sanitary-napkin-vending.jpg"
+                alt="Automatic Sanitary Napkin Vending Machine installed in schools by Khajani Welfare Society - enabling girls to stay in school"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* Impact */}
       <section className="w-full bg-accent py-20 px-6 text-center">
         <Reveal variant="fade-up" className="max-w-4xl mx-auto">
