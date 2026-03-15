@@ -34,7 +34,7 @@ const projects: Project[] = [
     title: "Khajani Learning Academy",
     description: "Bridging the educational gap for girls from marginalized communities through remedial support, English classes, digital literacy, and life skills.",
     category: "Education",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAgR5w_iKPIelWfMDvW0MsEgR_gkp08BPk8ss1w1x-VMxt31qraSf_TEw_M1bcYjiOWgjaoPlZqHUEJ4l9aCcEVEuomv_rEwBK5K6XNyrltSCxFEDlupuPGlSmfgo_do4XVc8hLcLYBPp9Ykoc6BOx2R7DbnQvP1ozz3zQ8rYohkpm6hG8EhCYy1hLYUEdhwxPo18D-CquC1DKFQUwZrdkBL7kUYXFAWbtrTkXKbYpNAU08Wrb15vspTC6giyPhtsD3ktpNmupQxJc",
+    image: "/images/projects/kla-students.jpg",
     link: "/projects/kla",
   },
   {
@@ -90,7 +90,7 @@ const projects: Project[] = [
     title: "Shakti Ek Adhaar",
     description: "Flagship International Women's Day event honoring feminine strength, resilience, and outstanding societal contributions.",
     category: "Culture",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo",
+    image: "/images/projects/shakti-ek-adhaar-1.jpg",
     link: "/projects/shakti-ek-adhaar",
   },
   {
@@ -111,14 +111,14 @@ const projects: Project[] = [
     title: "SHGs & Brij Surbhi Federation",
     description: "Empowering women through organized Self Help Groups, building sustainable livelihoods across 10 active SHGs with 120 women.",
     category: "Vocational",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC_xvQ4xPq8hpCF3v-KuxKMBmmZxS7Iz0eq-oeBCWSYhYc1BcW9vE4wvBk7N36Gt6OKG2F4YHB849pnRy9pkXi0KYrOw377Lmk45EslYdYPYRaPfjBwri7GA3bU6Fkd4YUzgTFrZVxJh_Zr1fQZ9JGIpeLnuZhDb49jAg5aLQiMZX-wKjkBsX4vmcdekikCE0ins3wi3KdaPPmF-GYLSdXKNgJbfB3UN5CXp1hpXr9ciTh2nleIaLv_J7NW_rJrwCBpHRmi4nDNAwQ",
+    image: "/images/projects/shg-federation.jpg",
     link: "/projects/shg-federation",
   },
   {
     title: "UPSDM Certified Training",
     description: "Government-backed skill development programs in tailoring and beauty therapy, producing industry-ready professionals.",
     category: "Vocational",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA3mVW_d8whlvLoRFww93gL58v7rzAuyndWIu-RiiF3kZtqUGzy1hZrCkMoU8fENm-G2dlPa3IJL2iry5p1o6XJoHzM-0vCM03oZ8Tz0uDp-hNFBPtPq4Ff6fDrra1oKzm4vuHBGqVgx0D_L818v6KWvEmwPfhTt-h9H-xdKrCGCoOo8JKlEm7B8arm7rN9wF4g9TnPF7qGw_yWRy-eA5u4bXISzlRT5mBS9xifovjugkXkqTRajTF6gEWKWH_s498objmUR-FlcV8",
+    image: "/images/projects/upsdm-sewing.jpg",
     link: "/projects/upsdm-training",
   },
   {

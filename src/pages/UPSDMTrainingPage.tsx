@@ -10,7 +10,7 @@ const programs = [
     title: "Self Employed Tailor",
     desc: "A comprehensive curriculum focusing on garment construction, pattern making, and entrepreneurial skills essential for setting up an independent tailoring business.",
     skills: ["Advanced Stitching Techniques", "Business Management & Marketing", "Quality Control Standards"],
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDNx0f7uRXSBOJ3hL2BkftdKogG77U7nhVi6t3zkvxsWGhYmLsN-cu75-GJ-WX7kWcuYgzEMrHYM5A6Og8q6b0hBLRs1JYjDRnSRiZyOpt69IjNAIbwmOC9bypJLEgtQ6I8BAl8c7o1MonLhUIuPvOmlTLY3RTaqdVLZjbxgcpoUSFHh_ML4PpmTvHPphYGENSD_NzXHG18mwwvD-h56ddm8VpFdS5tBD7dB3oLkjsqNaNXlRUrWj97w0jKoYfwPew6Dtd2k2xG9M8",
+    image: "/images/projects/upsdm-sewing.jpg",
   },
   {
     tag: "Wellness Program",
@@ -18,7 +18,7 @@ const programs = [
     title: "Assistant Beauty Therapist",
     desc: "Expert training covering skincare, makeup artistry, and salon management, preparing candidates for professional roles in the growing wellness industry.",
     skills: ["Skincare Fundamentals", "Professional Makeup Application", "Client Consultation Ethics"],
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBq2Fw0hs4QdzWZ6yLBXdrMOp-ncef6v_Vd6PBDywJn_hWZRwOgYJbW8VSYe5Y9rCL_XJCKolMxeeQca7ZxXbpjJ48fRpSV0JxUoMHFd9sr7eE08CNAhkt-dh8Pk7oq6WLEJCDPvdtUgVRY6XDq5SS9EIiKraMuzBzoT2A06L5P-_b5gMBxnBD1Gwp_U3jUcctMwKzAG-FI69uFDUF3PBVWcRyhuRXnzfYCuh0E-ARQ1Jm8ddqKFswtZ2MrBOIO468iG1V0ujC9oxw",
+    image: "/images/projects/upsdm-makeup.jpg",
   },
 ];
 
@@ -32,7 +32,7 @@ const UPSDMTrainingPage = () => {
           <img
             alt="A modern training classroom with students"
             className="w-full h-full object-cover object-center opacity-80"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3mVW_d8whlvLoRFww93gL58v7rzAuyndWIu-RiiF3kZtqUGzy1hZrCkMoU8fENm-G2dlPa3IJL2iry5p1o6XJoHzM-0vCM03oZ8Tz0uDp-hNFBPtPq4Ff6fDrra1oKzm4vuHBGqVgx0D_L818v6KWvEmwPfhTt-h9H-xdKrCGCoOo8JKlEm7B8arm7rN9wF4g9TnPF7qGw_yWRy-eA5u4bXISzlRT5mBS9xifovjugkXkqTRajTF6gEWKWH_s498objmUR-FlcV8"
+            src="/images/projects/upsdm-class.jpg"
           />
         </div>
         <div className="relative z-20 max-w-4xl mx-auto px-8 text-center py-20">
