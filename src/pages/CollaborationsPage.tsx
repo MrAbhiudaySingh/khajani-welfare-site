@@ -24,25 +24,6 @@ const pillars = [
 ];
 
 const CollaborationsPage = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    organization: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const subject = encodeURIComponent(`Partnership Inquiry from ${formData.name}`);
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nOrganization: ${formData.organization}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
-    );
-    window.location.href = `mailto:khajaniwelfaresociety@gmail.com?subject=${subject}&body=${body}`;
-    toast({ title: "Opening your email client", description: "Please send the pre-filled email to complete your inquiry." });
-  };
-
   return (
     <Layout>
       {/* Hero */}
