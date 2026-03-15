@@ -97,7 +97,7 @@ const projects: Project[] = [
     title: "Radha Krishna Poshak Training",
     description: "Preserving the sacred art of deity garment making through specialized artisan training in partnership with the World Bank aided UP Pro-Poor Tourism project.",
     category: "Culture",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyXzr7tOBdf68nAnwCHcFFGMMFu4cLl3erehmbgH5AsERQI7C07eqD1VeIZq2cXuoAUSw8ob4tBIztMadd1xkVcdu38X7i_zJr-Y1HcSEzTV2qGA-nTHXatgxEie9ojvSex8LFM8uc4Tw3CIAB7EXdg6ryt8zbRU6MkCHFMpOn3dTWTQYH4xxg5MYD9RdnVGLqpYd294k7T3gCLcv3Ab1jyWu2UvVj9kKlMO0eclSmew_ilu0q_RA_kQp8_g_ZxlkiSlOAVjE82dg",
+    image: "/images/projects/poshak-sanjhi.jpg",
     link: "/projects/radha-krishna-poshak",
   },
   {
