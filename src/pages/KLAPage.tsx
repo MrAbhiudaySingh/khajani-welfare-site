@@ -37,7 +37,7 @@ const KLAPage = () => {
               <img
                 alt="Students in a focused learning environment"
                 className="w-full rounded shadow-xl object-cover aspect-[3/4]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCS-iEwlxH1yRpzlOWnmkpYdc-K1W5qDSX0Jo26gSP32fRjc-vfV_hete18E_ZuJfaPnJH0BuKOOyHomVozG0cjlW7zAlFFkARyddFtC6jEkHcuEHokSD4Y7R8B5N-GMZUDE33BL0eDKl-d6CPKqrUdXxyZjyR47KSYtpefbkT8EhfQlHBiPTR3WwLY7FpUzvSucrBV6tfvxWgwQNDUyhKLDyM-ki-H7Krjlb-qE73_AKDf6W6F4m01e7ddfiS82mt7udGnLMThzo"
+                src="/images/projects/kla-classroom-1.jpg"
               />
             </Reveal>
             <Reveal variant="fade-left" delay={150} className="md:col-span-5 md:col-start-8 flex flex-col justify-center">
