@@ -242,7 +242,7 @@ const CampaignsPage = () => {
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 w-full">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] overflow-hidden rounded-tr-[50px]">
-                  <img alt="Plantation Drive 1" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAucoMSEonS0R7LaBWbSKsgZRY2OHbkubKiclomDpJSXPKLlwkY1sucpj3w_GOeetfd16qlsoY9D2-Hx9f20J2Uac7Rd1oDeEc3Fmo0gYaq5BW0Sc0LzXY6tmw7f5v8nTF9nA9mEwz-WqUS4RUsULgw3QsiTf5_ZwO_GIfDkrvfPRErVYOcOMyKK3_AcvRj93vcboDxtPCH77fjVcJRNPYrd7Eu3cwFT58oRUrZl-NsAZFWdMhvo8A1tJccThIik8PXhynG5kiN888" />
+                  <img alt="Plantation Drive 1" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="/images/projects/brij-seva-plantation.jpg" />
                 </div>
                 <div className="aspect-[3/4] overflow-hidden rounded-bl-[50px] mt-12">
                   <img alt="Plantation Drive 2" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApl59XFP68tcEBuZcRyxw47tmJv98AcqAzcBiqZ73qqCK0IU6W4UHUDV_Rm5uVM-6lL2s2EjEb2VZeWWU8bVpjgrSQSF-abT0DaGtJ22kCgG7pC2bjCXMk741RkMHnNFwOeLubVIqwJzIhjUZjNVmga0SgxeCqulSYLg3ocpr03bJ9aQaLhP4YJfv4LrPclR6M-60ti1MmDBVIJyAHuy7FIQPBOSn6yFyssBBzFNHh_UEn92gRKjf6aZ--bGDT_c-9Z8057v7Kg4Q" />
