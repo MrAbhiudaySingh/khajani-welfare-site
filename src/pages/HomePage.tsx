@@ -144,7 +144,7 @@ const HomePage = () => {
                   <h4 className="font-display italic text-3xl mb-4">Join the Network</h4>
                   <a href="mailto:khajaniwelfaresociety@gmail.com" className="text-[10px] font-bold uppercase tracking-[0.2em] text-secondary group-hover:text-primary-foreground transition flex items-center justify-center gap-2">
                     Apply for Partnership <ArrowRight size={14} />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
