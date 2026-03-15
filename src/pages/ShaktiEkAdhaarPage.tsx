@@ -90,7 +90,7 @@ const ShaktiEkAdhaarPage = () => {
                 icon: Users,
                 title: "Community Strength",
                 desc: "Building networks of support and amplifying inspiring stories from the grassroots.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD6ZBSjEOMz9KW7U4dCg2-myznpMWSfvzNR4a-grFa-VhTB2RPDwEAHtP04bkMoQ6OW9TGn7dlgpcjhKE9TGawnNevAHWej7Zl3hPI2CEFxIMKHOVqESsl7j2v_iCXV6nk3tWCmr5vihzI3YSry7qwhGczu09WbRE9l8XccszVBGyQwB51RPvK8qB5WCBszh4Vxu5wxfq-P4GnQQkgJ7TvVa_hEAro5ddkw99d5NMpVGuGwvl0kXKTBLGke2yKTpGXqAGEwW6Sw3mA",
+                img: "/images/projects/shakti-ek-adhaar-2.jpg",
               },
             ].map((item, i) => (
               <Reveal key={item.title} variant="fade-up" delay={i * 100}>
