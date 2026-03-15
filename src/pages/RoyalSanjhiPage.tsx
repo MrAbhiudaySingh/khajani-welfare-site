@@ -47,7 +47,7 @@ const RoyalSanjhiPage = () => {
                 className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB7n3EdyUcgRoAnoe_NProYhibM8mwlSBf6rBKdEThGTVmK5PgFzU5ZFCnt7J7ontoELcBNskyiVB1KFJfSUkRLLI5BGw5NOfVst5M1aA2bVUaM5nUXBa57libIw0Z5rKyYEIXdnH1FaoGKbm4CZtXcfqdXKq3x9MioLnztjvSEE8To2zXkvtMCBIsDhiNqqrhW87vAp5-8apU0LeAb0HTVsjwYczjZeUjpSiBwY1owbqXkgsrqQ6il4HRvXbp6fobh9zw9cn5b4Yg')",
+                    "url('/images/projects/royal-sanjhi-training.jpg')",
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
