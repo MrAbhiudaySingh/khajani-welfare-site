@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Digi-Shala",
     description: "Bridging the digital divide by providing rural women with knowledge and tools to navigate the digital landscape confidently and securely.",
     category: "Education",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC_OU3pEZP6Et84VvJWBLL5xIn8aBi7_ZL2Lq-wJM8YdXsuXNNtyOv8hMHIc7CIT8ES44rpQV-bgMPrhrHmMZIrqJ_s1yGM0eW_srJtKfygb0CAyE12P7WQuaoIeEBWOijGJWeVhCtk9F-vYC2Nm7lo5wjrSr3CF6BOoKz0H0lXNV2pjnsxnfAMN3Vm8XlIVK5x29QQn2E7IaE9exqhFyuVbhwjkHB2zYGPVEzZ_YJkw8w97-IqPJTS7qQvnjZ2lyg5Kf83-DJ5_x4",
+    image: "/images/projects/digi-shala-icon.jpg",
     link: "/projects/digi-shala",
   },
   {
@@ -55,7 +55,7 @@ const projects: Project[] = [
     title: "Brij-Anshuman",
     description: "Empowering inmates at Mathura Central Jail through intensive skill development in garment construction, tailoring, and traditional crafts.",
     category: "Vocational",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBTQzNDGnOvQs3CTSkgcNAyeluwqtQbW9IyWPiwEqZCYcGc_7MybdyfW5kaZfy1NZ8x4z8AbMQPIf7oHWdclr0iC0SVlETUKu42I3Be8kBlf0S5s_oze5sunvpfyfXCtcxFWQL31VsI62XPtO5ZfEa4t6m_EiTsmHQvx6iye7fX0-JpH5ZvqZ_NkMobQiqZwAzgvf41xfldcRtb1j8hnwVpKLIMH7A4PFiIuR2vVQvJTF5dNiftqXTlKt_84Y2pmh2cRP7VeXrF-DU",
+    image: "/images/projects/brij-anshuman-icon.jpg",
     link: "/projects/brij-anshuman",
   },
   {
@@ -76,14 +76,14 @@ const projects: Project[] = [
     title: "Brij-Sangini",
     description: "Holistic community health program empowering women through dedicated medical care, health checkup camps, and blood donation drives.",
     category: "Health",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBzQPS-endf8wqmYGXf4tPUTGDAjluEDQZ4i7ZAH0jsUtCkucXy5VC6_1AFokFEpz1qRKzx_EjXf2Im2L7WtzSpe26x57irJZAGuyKFR7trxgPq3vHzRVuRyRYIdJSrSSY3klkoKYfYks1nsfg_UxcoDEEygKSyHeDGf33Yv32QUj4rnuyakp9p04Gmu1bobhCMRxvtwf5SN42Su-_W11mxrPAr6nSaUD4eI_Y0zqotuhIy6zyNEeFDS89kS0otvS_1XK2T8172Rw8",
+    image: "/images/projects/brij-sangini-icon.jpg",
     link: "/projects/brij-sangini",
   },
   {
     title: "Brij-Seva",
     description: "Uplifting communities through essential services including Jal Seva, plantation drives, and Daan Utsav giving campaigns.",
     category: "Environment",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCKRDk2Ba-LoWtau4Y6ed0WeMm5kNUqnYwYrda7j7xv4zM1F-ZFpCGcpeo4tsDosRHne34Za48-Ub2xUjDCZJSbr-aDskBngBj2hTjxc6AuMtBUYnLYVCLd0B8n9TCFeaDzkOctMpqbjhFFTFsA-tcFEek-ndMS3-Zumgc8A4afgiDQA4TFCksOC55BT44rBfDD8ez4OGFPjEGKHydGE0RN5Y8m9Tg-vV30lUXAg-xh9vmjZYhK8Oxp4mM0MXHkd6pi7DpK-kPXWVw",
+    image: "/images/projects/brij-seva-icon.jpg",
     link: "/projects/brij-seva",
   },
   {
