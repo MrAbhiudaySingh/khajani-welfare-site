@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Digi-Shala",
     description: "Bridging the digital divide by providing rural women with knowledge and tools to navigate the digital landscape confidently and securely.",
     category: "Education",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC_OU3pEZP6Et84VvJWBLL5xIn8aBi7_ZL2Lq-wJM8YdXsuXNNtyOv8hMHIc7CIT8ES44rpQV-bgMPrhrHmMZIrqJ_s1yGM0eW_srJtKfygb0CAyE12P7WQuaoIeEBWOijGJWeVhCtk9F-vYC2Nm7lo5wjrSr3CF6BOoKz0H0lXNV2pjnsxnfAMN3Vm8XlIVK5x29QQn2E7IaE9exqhFyuVbhwjkHB2zYGPVEzZ_YJkw8w97-IqPJTS7qQvnjZ2lyg5Kf83-DJ5_x4",
+    image: "/images/projects/digi-shala-icon.jpg",
     link: "/projects/digi-shala",
   },
   {
