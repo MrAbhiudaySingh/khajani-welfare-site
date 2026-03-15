@@ -24,7 +24,7 @@ const skills = [
   {
     title: "Specialized Sewing",
     desc: "Advanced stitching techniques required to assemble complex, multi-layered garments seamlessly.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCdv02qbmlUXDCNW5e1k1GDEtQ13BXwKOvby_TlmJSiJOxxuKMjHccL9Xs4Q2X7CDA-_H9iPRKaI4DlvnRLIgiTOl_NiNkpW5i_PKgsuwXefrqOJ8sALLRuw9JEdXfzFb7-9oUlrrJjVEjoNNMRMobxJi68e01mUxfIEJ6rXz_incjUH0pJwdXZhj7VFQKtz5GODFzFR1cfJZaRw_SvbSavqnRp7ul--rp_L1dvGApAP-sHAnIpGqr4ssj6rEdCK1jVoTUFTQTRkaQ",
+    image: "/images/projects/brij-hunar-class.jpg",
     aspect: "aspect-[4/3]",
   },
   {
