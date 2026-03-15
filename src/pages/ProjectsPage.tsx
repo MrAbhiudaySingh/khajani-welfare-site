@@ -24,13 +24,6 @@ const projects: Project[] = [
     link: "/projects/brij-hunar",
   },
   {
-    title: "Brij-Nipun",
-    description: "Specialized skill development program focusing on advanced training modules for youth empowerment and employment readiness.",
-    category: "Vocational",
-    image: "/images/projects/brij-nipun-icon.jpg",
-    link: "/projects/brij-hunar",
-  },
-  {
     title: "Brij-Surabhi",
     description: "Preserving and promoting the cultural heritage of Brij through traditional arts, music, and craftsmanship programs across villages.",
     category: "Culture",
