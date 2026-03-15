@@ -11,7 +11,7 @@ const KLAPage = () => {
         <div className="absolute inset-0 z-0">
           <div
             className="h-full w-full bg-cover bg-center opacity-60 mix-blend-multiply"
-            style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgR5w_iKPIelWfMDvW0MsEgR_gkp08BPk8ss1w1x-VMxt31qraSf_TEw_M1bcYjiOWgjaoPlZqHUEJ4l9aCcEVEuomv_rEwBK5K6XNyrltSCxFEDlupuPGlSmfgo_do4XVc8hLcLYBPp9Ykoc6BOx2R7DbnQvP1ozz3zQ8rYohkpm6hG8EhCYy1hLYUEdhwxPo18D-CquC1DKFQUwZrdkBL7kUYXFAWbtrTkXKbYpNAU08Wrb15vspTC6giyPhtsD3ktpNmupQxJc')" }}
+            style={{ backgroundImage: "url('/images/projects/kla-classroom-2.jpg')" }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent" />
         </div>
