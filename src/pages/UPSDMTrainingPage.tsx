@@ -18,7 +18,7 @@ const programs = [
     title: "Assistant Beauty Therapist",
     desc: "Expert training covering skincare, makeup artistry, and salon management, preparing candidates for professional roles in the growing wellness industry.",
     skills: ["Skincare Fundamentals", "Professional Makeup Application", "Client Consultation Ethics"],
-    image: "/images/projects/upsdm-makeup.jpg",
+    image: "/images/projects/upsdm-beauty.jpg",
   },
 ];
 
