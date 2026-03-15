@@ -128,9 +128,9 @@ const HomePage = () => {
           <Reveal variant="scale" delay={150}>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border border-border bg-card shadow-xl">
               {[
-                { num: "1", title: "Government & Institutional Partnerships", desc: "Collaboration with government departments and institutional bodies helps us implement skill development and education initiatives effectively. Through these partnerships, we have conducted vocational training programs and community development initiatives that empower young women and girls." },
-                { num: "2", title: "Educational & Skill Development Partners", desc: "Our educational collaborators support learning initiatives such as remedial education, personality development, and vocational training. Together we create opportunities that help girls become confident, capable, and independent." },
-                { num: "3", title: "Community & Social Organizations", desc: "Local social groups, women's organizations, and community leaders play a vital role in our journey. Their support helps us identify beneficiaries, mobilize communities, and strengthen the impact of our programs across Mathura and surrounding areas." },
+                { num: "1", title: "Government & Institutional Partnerships", desc: "Government partnerships enabling skill development and vocational training programs that empower young women and girls." },
+                { num: "2", title: "Educational & Skill Development Partners", desc: "Educational support for remedial learning, personality development, and vocational training opportunities." },
+                { num: "3", title: "Community & Social Organizations", desc: "Local community groups and women's organizations helping identify beneficiaries and mobilize communities across Mathura." },
               ].map((item) => (
                 <div key={item.num} className="p-10 border-b lg:border-b-0 lg:border-r border-border hover:bg-muted transition duration-300 text-center flex flex-col items-center">
                   <div className="w-12 h-12 bg-primary text-primary-foreground flex items-center justify-center text-lg font-bold font-serif mb-6 shadow-lg rounded-sm">{item.num}</div>
