@@ -9,6 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const PartnershipInquiryPage = () => {
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     organization: "",
@@ -17,14 +18,23 @@ const PartnershipInquiryPage = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`Partnership Inquiry from ${formData.name}`);
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nOrganization: ${formData.organization}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
-    );
-    window.location.href = `mailto:khajaniwelfaresociety@gmail.com?subject=${subject}&body=${body}`;
-    toast({ title: "Opening your email client", description: "Please send the pre-filled email to complete your inquiry." });
+    setIsSubmitting(true);
+    try {
+      await fetch("https://script.google.com/macros/s/AKfycbwsyp9fQCwlCDmid51E8yI2vp6q2dYj-TJe4bo-4iKuzu3AcvsyqbuW-RlVnWAr0UAt/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      toast({ title: "Inquiry Sent!", description: "Thank you! We will get back to you soon." });
+      setFormData({ name: "", organization: "", email: "", phone: "", message: "" });
+    } catch {
+      toast({ title: "Error", description: "Something went wrong. Please try again.", variant: "destructive" });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -72,8 +82,8 @@ const PartnershipInquiryPage = () => {
                   <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Message</label>
                   <Textarea placeholder="How would you like to collaborate?" rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
                 </div>
-                <Button type="submit" size="lg" className="w-full gap-2">
-                  <Send size={16} /> Send Inquiry
+                <Button type="submit" size="lg" className="w-full gap-2" disabled={isSubmitting}>
+                  <Send size={16} /> {isSubmitting ? "Sending..." : "Send Inquiry"}
                 </Button>
               </form>
             </Reveal>
