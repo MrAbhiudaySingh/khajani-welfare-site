@@ -132,7 +132,7 @@ const projects: Project[] = [
     title: "Sanitary Napkin Initiative",
     description: "Ensuring dignity in education through sanitary napkin vending machines, health education, and safe disposal across 152 villages.",
     category: "Health",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAhLszVNC1ME5_uV4vVZ3Jb-7H-6GNx2YimQcXV4n5XR9Ws8HoqXlU86lNiwpEWnFll84x-aBdAP7LygLsx095lxNnrdwiispC0XohyLfc7GOyCD98VvI6O5b6JqTkpqtepS9lnRbvbDah2q7VgTb6KB4BHP-oVetfL1GtZUfLSaTdGgy-tphh-scn28LLRu95LrNnqlGi4wG6Xat5mm9Cu8CB_eTdXDv-Staj_laW9jA6vDcvsX0CijuEXNLG03FkmoRHXlroKW6s",
+    image: "/images/projects/sanitary-napkin.jpg",
     link: "/projects/sanitary-napkin",
   },
 ];
