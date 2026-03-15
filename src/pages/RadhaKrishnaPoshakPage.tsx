@@ -12,7 +12,7 @@ const skills = [
   {
     title: "Fabric Preparation",
     desc: "Selecting, treating, and preparing premium silks and cottons suitable for deity adornment.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDdbrccpn4c8vgZ9hqumz5a7caRmDmYUtJsiMcz-wYcVIna9S2ONF_UsLT1MPPUeMCGTdK0xIlgOwmIQ-hXDhIPXmEct8ORBCl9SvwAmgm5W-BT4oLZkWjkJo4_BENNmcp4d5XC6V3m3QTDQW6YIeW2O9fwWGcRuuRicp7AplORf3_S3G26XobLX1-K6aUKE1h733smliRnyOF_NQdwVEjdcz-J4c572kfKIekUKgL-uHpNDkuwbQAAUOCrxlcb0fI0kjk_GCeL_8I",
+    image: "/images/projects/brij-hunar-tailoring.jpg",
     aspect: "aspect-[4/3]",
   },
   {
