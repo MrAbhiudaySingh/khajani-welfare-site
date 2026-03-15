@@ -24,6 +24,13 @@ const projects: Project[] = [
     link: "/projects/brij-hunar",
   },
   {
+    title: "Brij-Nipun",
+    description: "Specialized skill development program focusing on advanced training modules for youth empowerment and employment readiness.",
+    category: "Vocational",
+    image: "/images/projects/brij-nipun-icon.jpg",
+    link: "/projects/brij-hunar",
+  },
+  {
     title: "Brij-Surabhi",
     description: "Preserving and promoting the cultural heritage of Brij through traditional arts, music, and craftsmanship programs across villages.",
     category: "Culture",
@@ -48,7 +55,7 @@ const projects: Project[] = [
     title: "EDUDAKSH",
     description: "Tailored remedial learning for government school girls aged 10-14, addressing educational disparities through targeted interventions.",
     category: "Education",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAgR5w_iKPIelWfMDvW0MsEgR_gkp08BPk8ss1w1x-VMxt31qraSf_TEw_M1bcYjiOWgjaoPlZqHUEJ4l9aCcEVEuomv_rEwBK5K6XNyrltSCxFEDlupuPGlSmfgo_do4XVc8hLcLYBPp9Ykoc6BOx2R7DbnQvP1ozz3zQ8rYohkpm6hG8EhCYy1hLYUEdhwxPo18D-CquC1DKFQUwZrdkBL7kUYXFAWbtrTkXKbYpNAU08Wrb15vspTC6giyPhtsD3ktpNmupQxJc",
+    image: "/images/projects/edudaksh-icon.jpg",
     link: "/projects/edudaksh",
   },
   {
