@@ -10,7 +10,7 @@ const programs = [
     title: "Self Employed Tailor",
     desc: "A comprehensive curriculum focusing on garment construction, pattern making, and entrepreneurial skills essential for setting up an independent tailoring business.",
     skills: ["Advanced Stitching Techniques", "Business Management & Marketing", "Quality Control Standards"],
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDNx0f7uRXSBOJ3hL2BkftdKogG77U7nhVi6t3zkvxsWGhYmLsN-cu75-GJ-WX7kWcuYgzEMrHYM5A6Og8q6b0hBLRs1JYjDRnSRiZyOpt69IjNAIbwmOC9bypJLEgtQ6I8BAl8c7o1MonLhUIuPvOmlTLY3RTaqdVLZjbxgcpoUSFHh_ML4PpmTvHPphYGENSD_NzXHG18mwwvD-h56ddm8VpFdS5tBD7dB3oLkjsqNaNXlRUrWj97w0jKoYfwPew6Dtd2k2xG9M8",
+    image: "/images/projects/upsdm-sewing.jpg",
   },
   {
     tag: "Wellness Program",
