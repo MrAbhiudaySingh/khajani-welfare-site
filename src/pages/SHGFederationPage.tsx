@@ -25,7 +25,7 @@ const SHGFederationPage = () => {
           <img
             alt="Group of women working at sewing machines"
             className="w-full h-full object-cover object-center"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_xvQ4xPq8hpCF3v-KuxKMBmmZxS7Iz0eq-oeBCWSYhYc1BcW9vE4wvBk7N36Gt6OKG2F4YHB849pnRy9pkXi0KYrOw377Lmk45EslYdYPYRaPfjBwri7GA3bU6Fkd4YUzgTFrZVxJh_Zr1fQZ9JGIpeLnuZhDb49jAg5aLQiMZX-wKjkBsX4vmcdekikCE0ins3wi3KdaPPmF-GYLSdXKNgJbfB3UN5CXp1hpXr9ciTh2nleIaLv_J7NW_rJrwCBpHRmi4nDNAwQ"
+            src="/images/projects/shg-federation.jpg"
           />
         </div>
         <div className="relative z-20 w-full max-w-[1400px] mx-auto px-6 md:px-12 py-20">

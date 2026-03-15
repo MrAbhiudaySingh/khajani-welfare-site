@@ -74,7 +74,7 @@ const BrijSevaPage = () => {
             <div className="absolute inset-0 bg-primary -translate-x-4 translate-y-4" />
             <div
               className="w-full aspect-[4/3] bg-cover bg-center relative z-10 border-2 border-primary grayscale hover:grayscale-0 transition-all duration-700"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDCkmFozDblnvW-sjwai6nssA4TL64bRry7XNGdELPeuLehEbjrYXWcTUbrLrREGls9UDbmbfFu5LS9deuh4ZX-herBZTmSljb03gwIonDmbuj2nzCzciVrGgu9WVhhFW4h4q6JnJi7YtsKsl5yYNfTPb_AzsWlihh0-riVPu_125cxDizaPH_6QiBNO_S95MK0yLsa5-F3nrhhXROsX7t4LTlSboGKP2LYyzpnDrMtCUXVP05fKKqA4SeC2GqfrxBoocuCSAz9O9o')" }}
+              style={{ backgroundImage: "url('/images/projects/brij-seva-plantation.jpg')" }}
             />
           </Reveal>
           <Reveal variant="fade-left" delay={150} className="lg:col-span-5 flex flex-col gap-6 order-1 lg:order-2">
