@@ -3,46 +3,43 @@ import { Reveal } from "@/components/Reveal";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Building2, GraduationCap, Users, Send } from "lucide-react";
+import { Handshake, GraduationCap, Users, Send, CheckCircle, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
-const pillars = [
+const avenues = [
   {
-    num: "1",
-    icon: <Building2 size={28} />,
-    title: "Government & Institutional Partnerships",
-    desc: "Collaboration with government departments and institutional bodies helps us implement skill development and education initiatives effectively. Through these partnerships, we have conducted vocational training programs and community development initiatives that empower young women and girls.",
+    icon: <Handshake size={28} />,
+    title: "CSR Partnerships",
+    desc: "Long-term strategic alignment with your corporate social responsibility mandates to ensure scalable impact.",
   },
   {
-    num: "2",
     icon: <GraduationCap size={28} />,
-    title: "Educational & Skill Development Partners",
-    desc: "Our educational collaborators support learning initiatives such as remedial education, personality development, and vocational training. Together we create opportunities that help girls become confident, capable, and independent.",
+    title: "Skill Development",
+    desc: "Directly sponsor vocational training centers and curriculum development for underprivileged rural women.",
   },
   {
-    num: "3",
     icon: <Users size={28} />,
-    title: "Community & Social Organizations",
-    desc: "Local social groups, women's organizations, and community leaders play a vital role in our journey. Their support helps us identify beneficiaries, mobilize communities, and strengthen the impact of our programs across Mathura and surrounding areas.",
+    title: "Employee Engagement",
+    desc: "Foster a culture of purpose through volunteer programs, skill-sharing, and immersion workshops for your team.",
   },
 ];
 
 const CollaborationsPage = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
-    name: "",
-    organization: "",
+    company: "",
+    industry: "",
+    contact: "",
     email: "",
-    phone: "",
-    message: "",
+    program: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`Partnership Inquiry from ${formData.name}`);
+    const subject = encodeURIComponent(`Corporate Partnership Inquiry from ${formData.company}`);
     const body = encodeURIComponent(
-      `Name: ${formData.name}\nOrganization: ${formData.organization}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+      `Company: ${formData.company}\nIndustry: ${formData.industry}\nContact Person: ${formData.contact}\nEmail: ${formData.email}\nProgram Interest: ${formData.program}`
     );
     window.location.href = `mailto:khajaniwelfaresociety@gmail.com?subject=${subject}&body=${body}`;
     toast({ title: "Opening your email client", description: "Please send the pre-filled email to complete your inquiry." });
@@ -50,55 +47,114 @@ const CollaborationsPage = () => {
 
   return (
     <Layout>
-      {/* Hero */}
-      <div className="relative pt-20 pb-16 lg:pt-32 lg:pb-24 overflow-hidden bg-card">
+      {/* Hero Section */}
+      <section className="relative bg-primary py-24 lg:py-32 overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 bg-gradient-to-br from-accent/30 to-transparent"></div>
+          <div
+            className="absolute right-0 top-0 w-1/2 h-full bg-cover bg-center"
+            style={{ backgroundImage: "url('/images/projects/brij-hunar-training.jpg')" }}
+          ></div>
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Reveal variant="fade-left" className="max-w-3xl">
-            <span className="text-accent font-bold tracking-[0.2em] uppercase text-xs mb-6 block">Institutional Framework</span>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-primary leading-[0.95] mb-8">
-              Collaborators in<br /><span className="text-accent">Impact</span>
+            <span className="inline-block py-1.5 px-4 rounded-full bg-accent/10 text-accent border border-accent/20 text-xs font-bold tracking-widest uppercase mb-6">
+              Corporate Social Responsibility
+            </span>
+            <h1 className="font-display text-5xl lg:text-7xl text-primary-foreground mb-8 leading-[1.1] font-bold">
+              Partner for Purpose: Corporate Social{" "}
+              <span className="text-accent italic">Responsibility</span>
             </h1>
-            <div className="border-l-4 border-accent pl-8 py-2">
-              <p className="text-xl md:text-2xl text-muted-foreground font-display italic leading-relaxed">
-                The Strategic Network Behind Our Mission
-              </p>
-            </div>
-          </Reveal>
-        </div>
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-muted opacity-50 -z-10 hidden lg:block"></div>
-      </div>
-
-      {/* About Collaborations */}
-      <section className="py-20 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Reveal variant="fade-up">
-            <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
-              <p>
-                For more than 17 years, Khajani Welfare Society has worked with institutions, government bodies, community groups, and responsible organizations that believe in empowering girls and strengthening society.
-              </p>
-              <p>
-                These collaborations help us expand our reach, improve program quality, and create sustainable opportunities for girls from marginalized communities in Brij Bhoomi.
-              </p>
-              <p className="text-primary font-display font-semibold text-xl">
-                Together, we are building a future where every girl has access to education, skills, confidence, and dignity.
-              </p>
+            <p className="text-xl text-primary-foreground/70 font-light leading-relaxed mb-10">
+              Join us in empowering the women of Brij through sustainable, skill-based partnerships that create lasting economic freedom.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="#partner-form"
+                className="bg-accent text-accent-foreground px-8 py-4 rounded-xl font-bold hover:-translate-y-0.5 transition-transform shadow-lg"
+              >
+                Partner With Us
+              </a>
+              <a
+                href="/about"
+                className="border border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 rounded-xl font-bold transition-colors"
+              >
+                View Our Impact
+              </a>
             </div>
           </Reveal>
         </div>
       </section>
 
-      {/* Three Pillars */}
+      {/* The Case for Partnership */}
+      <section className="py-24 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-16 items-start">
+            <Reveal variant="fade-right" className="lg:col-span-5 order-2 lg:order-1">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  alt="Artisan women working together on traditional crafts"
+                  className="w-full h-[500px] object-cover"
+                  src="/images/projects/brij-hunar-beauty.jpg"
+                />
+                <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
+                  <p className="text-primary-foreground font-display text-xl italic">
+                    "Empowerment is not just about resources, it's about building ecosystems of dignity."
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+            <Reveal variant="fade-left" delay={150} className="lg:col-span-7 order-1 lg:order-2">
+              <h2 className="font-display text-4xl lg:text-5xl font-bold text-primary mb-8">The Case for Partnership</h2>
+              <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
+                <p>
+                  Corporate alignment with Khajani Welfare Society supports UN Sustainable Development Goals and creates measurable ground-level impact. By partnering with us, your organization contributes directly to gender equality, poverty alleviation, and economic empowerment in rural India.
+                </p>
+                <p>
+                  We go beyond transactional philanthropy. Our model focuses on{" "}
+                  <strong className="text-primary">vocational excellence</strong> and{" "}
+                  <strong className="text-primary">entrepreneurial training</strong>, ensuring that every rupee invested translates into a life transformed.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-8 pt-8 mt-8 border-t border-border">
+                <div>
+                  <div className="text-4xl font-bold text-accent font-display mb-2">15k+</div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Women Empowered</p>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold text-accent font-display mb-2">42</div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Corporate Partners</p>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Collaboration Avenues */}
       <section className="py-24 bg-card">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-            {pillars.map((item, i) => (
-              <Reveal key={item.num} variant="fade-up" delay={i * 150}>
-                <div className="bg-background p-10 border border-border hover:border-accent hover:shadow-lg transition-all duration-300 h-full">
-                  <div className="w-14 h-14 bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold font-serif mb-6 shadow-lg rounded-sm">
-                    {item.num}
+          <Reveal variant="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="font-display text-4xl font-bold text-primary mb-4">Collaboration Avenues</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Strategic pathways for your organization to create meaningful change.
+              </p>
+            </div>
+          </Reveal>
+          <div className="grid md:grid-cols-3 gap-8">
+            {avenues.map((item, i) => (
+              <Reveal key={item.title} variant="fade-up" delay={i * 150}>
+                <div className="group p-10 rounded-2xl border border-border bg-background hover:bg-primary transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 h-full">
+                  <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-8 group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
+                    {item.icon}
                   </div>
-                  <h3 className="font-display font-bold text-primary text-xl mb-4">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  <h3 className="text-2xl font-display font-bold mb-4 text-primary group-hover:text-primary-foreground transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-muted-foreground group-hover:text-primary-foreground/70 transition-colors leading-relaxed">
+                    {item.desc}
+                  </p>
                 </div>
               </Reveal>
             ))}
@@ -106,56 +162,72 @@ const CollaborationsPage = () => {
         </div>
       </section>
 
-      {/* Partner Form */}
-      <section id="partner-form" className="py-24 bg-primary text-primary-foreground">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <Reveal variant="fade-right">
-              <span className="text-accent font-bold tracking-[0.2em] uppercase text-xs mb-4 block">Join the Network</span>
-              <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 leading-tight">
-                Partner With Khajani Welfare Society
-              </h2>
-              <p className="text-primary-foreground/70 text-lg leading-relaxed mb-6">
-                We welcome collaborations with institutions, corporates, foundations, and individuals who wish to contribute towards empowering girls and preserving the cultural strength of Brij.
-              </p>
-              <p className="text-accent font-display italic text-xl">
-                Together, we can create meaningful change.
-              </p>
-            </Reveal>
+      {/* Partner Inquiry Form */}
+      <section id="partner-form" className="py-24 bg-primary relative overflow-hidden">
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-accent/5 pointer-events-none"></div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <Reveal variant="fade-up">
+            <div className="bg-card rounded-3xl overflow-hidden shadow-2xl grid md:grid-cols-5">
+              {/* Left Panel */}
+              <div className="md:col-span-2 bg-accent p-10 md:p-12 text-accent-foreground">
+                <h2 className="font-display text-3xl font-bold mb-6">Start a Conversation</h2>
+                <p className="opacity-90 leading-relaxed mb-8">
+                  Ready to align your brand with purpose? Fill out the form and our partnership team will reach out within 48 hours.
+                </p>
+                <ul className="space-y-4">
+                  {["Detailed Impact Reporting", "Brand Visibility Opportunities", "80G Tax Benefits"].map((item) => (
+                    <li key={item} className="flex items-center gap-3">
+                      <CheckCircle size={16} />
+                      <span className="text-sm font-medium">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-            <Reveal variant="fade-left" delay={150}>
-              <form onSubmit={handleSubmit} className="bg-card text-foreground p-8 md:p-10 shadow-2xl space-y-5">
-                <h3 className="text-xl font-bold text-primary mb-2">Send a Partnership Inquiry</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Your Name</label>
-                    <Input required placeholder="Jane Doe" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
+              {/* Right Form */}
+              <div className="md:col-span-3 p-10 md:p-12">
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid sm:grid-cols-2 gap-5">
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">Company Name</label>
+                      <Input required placeholder="Acme Corp" value={formData.company} onChange={(e) => setFormData({ ...formData, company: e.target.value })} />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">Industry</label>
+                      <Input placeholder="Tech / Finance / etc." value={formData.industry} onChange={(e) => setFormData({ ...formData, industry: e.target.value })} />
+                    </div>
+                  </div>
+                  <div className="grid sm:grid-cols-2 gap-5">
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">Contact Person</label>
+                      <Input required placeholder="Jane Doe" value={formData.contact} onChange={(e) => setFormData({ ...formData, contact: e.target.value })} />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">Email Address</label>
+                      <Input required type="email" placeholder="jane@company.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
+                    </div>
                   </div>
                   <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Organization</label>
-                    <Input placeholder="Your organization" value={formData.organization} onChange={(e) => setFormData({ ...formData, organization: e.target.value })} />
+                    <label className="block text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">How would you like to partner?</label>
+                    <select
+                      className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                      value={formData.program}
+                      onChange={(e) => setFormData({ ...formData, program: e.target.value })}
+                    >
+                      <option value="">Select a Program</option>
+                      <option value="CSR Direct Funding">CSR Direct Funding</option>
+                      <option value="Vocational Sponsorship">Vocational Sponsorship</option>
+                      <option value="Employee Volunteering">Employee Volunteering</option>
+                      <option value="Other / General Inquiry">Other / General Inquiry</option>
+                    </select>
                   </div>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Email Address</label>
-                    <Input required type="email" placeholder="you@example.com" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
-                  </div>
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Phone Number</label>
-                    <Input required type="tel" placeholder="+91 98765 43210" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} />
-                  </div>
-                </div>
-                <div>
-                  <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Message</label>
-                  <Textarea placeholder="How would you like to collaborate?" rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
-                </div>
-                <Button type="submit" size="lg" className="w-full gap-2">
-                  <Send size={16} /> Send Inquiry
-                </Button>
-              </form>
-            </Reveal>
-          </div>
+                  <Button type="submit" size="lg" className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl py-4 font-bold shadow-xl">
+                    <Send size={16} /> Send Inquiry
+                  </Button>
+                </form>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </section>
     </Layout>
