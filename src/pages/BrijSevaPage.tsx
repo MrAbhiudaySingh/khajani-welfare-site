@@ -9,7 +9,7 @@ const BrijSevaPage = () => {
       <section className="w-full bg-primary text-primary-foreground min-h-[80vh] flex flex-col items-center justify-center p-8 relative overflow-hidden">
         <div className="absolute inset-0 grid grid-cols-3 z-0 opacity-40 mix-blend-luminosity grayscale">
           <div className="bg-cover bg-center border-r border-primary-foreground/20" style={{ backgroundImage: "url('/images/projects/brij-seva-jal.jpg')" }} />
-          <div className="bg-cover bg-center border-r border-primary-foreground/20" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBJwIUA0izHYCaKLbqCFyUyuZfDVhHdFtbqA5xc2GQoQBycRPhDAJ-aSN1ZgSnN-Zm5z2_MVT0UKCulAXBtPT8nm07Z-DBbbOq7mynoKWq77skauKiIRKJBzZIqTVmvJRrFkqb4juseD0l3EThOrzrCJxEX2Kn0hUrT8pV4Kzs9yxzNBsdQkAXEuSA-KXn7LMWOh8pfupc2iYzSuk7Rbg6BglXaFoamfCwQ96_0Ii8apkXKUqmcARCdARUlgprj4aX1bDXDrNFkos0')" }} />
+          <div className="bg-cover bg-center border-r border-primary-foreground/20" style={{ backgroundImage: "url('/images/projects/brij-seva-plantation.jpg')" }} />
           <div className="bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCL1YKwkKpCRripkCBHmaJe5eTNtl_ZPp3ExGt2lzUYUNul_rV7TUETYkBx6jMXd-3Cfkv_yGwFszMKrhuu2Op454z7hytVXGsGolyYvKfCj206Yng1R7sFi-o0iEdVwGHCdfmEqew4826zHnsbN6IAKAemJv5Y21zW2tbjIuY868g4d3IcTpxqQfpbLaxUQlkUTGLtrBORhkupr_y6VcV1HO570w_8eqjsQH3snNkIA4gL0ryWxOLlx146UJE5TKGcgJjZJfg9h-E')" }} />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
         </div>
