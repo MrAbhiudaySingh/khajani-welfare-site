@@ -18,7 +18,7 @@ const programs = [
     title: "Assistant Beauty Therapist",
     desc: "Expert training covering skincare, makeup artistry, and salon management, preparing candidates for professional roles in the growing wellness industry.",
     skills: ["Skincare Fundamentals", "Professional Makeup Application", "Client Consultation Ethics"],
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBq2Fw0hs4QdzWZ6yLBXdrMOp-ncef6v_Vd6PBDywJn_hWZRwOgYJbW8VSYe5Y9rCL_XJCKolMxeeQca7ZxXbpjJ48fRpSV0JxUoMHFd9sr7eE08CNAhkt-dh8Pk7oq6WLEJCDPvdtUgVRY6XDq5SS9EIiKraMuzBzoT2A06L5P-_b5gMBxnBD1Gwp_U3jUcctMwKzAG-FI69uFDUF3PBVWcRyhuRXnzfYCuh0E-ARQ1Jm8ddqKFswtZ2MrBOIO468iG1V0ujC9oxw",
+    image: "/images/projects/upsdm-makeup.jpg",
   },
 ];
 
