@@ -1,8 +1,10 @@
+import { useState } from "react";
 import Layout from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { Handshake, Users, FileCheck, Award, Building2, Briefcase, GraduationCap, BookOpen, Landmark } from "lucide-react";
 
 const AboutPage = () => {
+  const [activeMap, setActiveMap] = useState<"office" | "center">("office");
   return (
     <Layout>
       {/* Hero */}
