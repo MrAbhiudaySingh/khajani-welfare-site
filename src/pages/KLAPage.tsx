@@ -11,7 +11,7 @@ const KLAPage = () => {
         <div className="absolute inset-0 z-0">
           <div
             className="h-full w-full bg-cover bg-center opacity-60 mix-blend-multiply"
-            style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgR5w_iKPIelWfMDvW0MsEgR_gkp08BPk8ss1w1x-VMxt31qraSf_TEw_M1bcYjiOWgjaoPlZqHUEJ4l9aCcEVEuomv_rEwBK5K6XNyrltSCxFEDlupuPGlSmfgo_do4XVc8hLcLYBPp9Ykoc6BOx2R7DbnQvP1ozz3zQ8rYohkpm6hG8EhCYy1hLYUEdhwxPo18D-CquC1DKFQUwZrdkBL7kUYXFAWbtrTkXKbYpNAU08Wrb15vspTC6giyPhtsD3ktpNmupQxJc')" }}
+            style={{ backgroundImage: "url('/images/projects/kla-classroom-2.jpg')" }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent" />
         </div>
@@ -37,7 +37,7 @@ const KLAPage = () => {
               <img
                 alt="Students in a focused learning environment"
                 className="w-full rounded shadow-xl object-cover aspect-[3/4]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCS-iEwlxH1yRpzlOWnmkpYdc-K1W5qDSX0Jo26gSP32fRjc-vfV_hete18E_ZuJfaPnJH0BuKOOyHomVozG0cjlW7zAlFFkARyddFtC6jEkHcuEHokSD4Y7R8B5N-GMZUDE33BL0eDKl-d6CPKqrUdXxyZjyR47KSYtpefbkT8EhfQlHBiPTR3WwLY7FpUzvSucrBV6tfvxWgwQNDUyhKLDyM-ki-H7Krjlb-qE73_AKDf6W6F4m01e7ddfiS82mt7udGnLMThzo"
+                src="/images/projects/kla-classroom-1.jpg"
               />
             </Reveal>
             <Reveal variant="fade-left" delay={150} className="md:col-span-5 md:col-start-8 flex flex-col justify-center">
@@ -129,8 +129,8 @@ const KLAPage = () => {
               </div>
             </Reveal>
             <Reveal variant="fade-left" delay={200} className="order-1 lg:order-2 grid grid-cols-2 gap-4">
-              <img alt="Library resources" className="rounded-lg w-full h-full object-cover translate-y-8 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAn5tLHyZRX5z71cM0Uxg3Xz-5ZKY7mnbFup3-YbCQSbGXP5kVz-lx_cfljpniTTrP5oSBfdZdOVbmR2oQ2Ku9Oa83d2q7KIXP7ZCGSK2LqxYujJaga2HZGxJRijx4tiqPltW-UhOF6BfhGEnbPi9h9EWHPDB2RkfmCVIUVFk7VZVoXDxrtP02s7lRPkl4wmutm9mSx4TbCBCsFFBmF0P5_JjKEg6Z6CUV1m2deHnIjnG9KL8qDjPqHccibl1QlukdSIEYe-NhJ5Bw" />
-              <img alt="Modern classroom setup" className="rounded-lg w-full h-full object-cover -translate-y-8 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2AnTTFfjRsu35Nn6uOgi5dnryTo6BbMunfSXLyvHvZXhlayB6Jks8UVlhGhB21oD3W-Ce3MrzddKom06KuLJEGEOHKuCqJlE-xhvSRKpcMTn0woTWlZhT0A8m-6dzhLmAKZnQlL91GZqnjA_lgY07Z_cJjqJ7u2oN4XphIBvE6Xdd61m445kSZBbgnILu7eI2Jp5eghoOEwgrOFwBXhircOmu06hSF30K8AnincPpmRUReyOVWN4rCXpoTJdPdU46ACzFwMdc5xM" />
+              <img alt="Students studying in classroom" className="rounded-lg w-full h-full object-cover translate-y-8 shadow-2xl" src="/images/projects/kla-classroom-1.jpg" />
+              <img alt="Girls in school uniform learning" className="rounded-lg w-full h-full object-cover -translate-y-8 shadow-2xl" src="/images/projects/kla-classroom-2.jpg" />
             </Reveal>
           </div>
         </div>
