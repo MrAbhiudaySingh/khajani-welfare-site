@@ -78,7 +78,7 @@ const ShaktiEkAdhaarPage = () => {
                 icon: Award,
                 title: "Award Felicitation",
                 desc: "Honoring women who have broken barriers and made lasting impacts in their respective fields.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuARxwnWJ9L9gtaRmvJdQosqL7k1pwtN_SNlz6qN6nWSdhC2Vs7Nv4Il2GY2t-bNbJGW9t4L8GOBMpv245l26tfqmcw_xyXSNRwdg4JQX-Bfe1lW2GrGehIcxBLA4mdbT7dBS-XiZgMQXHrYZdBaUE3AUgMGSHWqPHU9HKod1mWQwGiBBnsJqZBTOrM06JVwd1z3Qs3ple9AJ_1JuAki9iudoxxRHRmonXifyElRNethofobHue7NsXi7tAfnR6rpi9nYdjIVz5z8fk",
+                img: "/images/projects/shakti-ek-adhaar-3.jpg",
               },
               {
                 icon: Theater,
