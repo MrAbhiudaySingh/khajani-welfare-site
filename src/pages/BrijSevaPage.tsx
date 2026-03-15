@@ -10,7 +10,7 @@ const BrijSevaPage = () => {
         <div className="absolute inset-0 grid grid-cols-3 z-0 opacity-40 mix-blend-luminosity grayscale">
           <div className="bg-cover bg-center border-r border-primary-foreground/20" style={{ backgroundImage: "url('/images/projects/brij-seva-jal.jpg')" }} />
           <div className="bg-cover bg-center border-r border-primary-foreground/20" style={{ backgroundImage: "url('/images/projects/brij-seva-plantation.jpg')" }} />
-          <div className="bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCL1YKwkKpCRripkCBHmaJe5eTNtl_ZPp3ExGt2lzUYUNul_rV7TUETYkBx6jMXd-3Cfkv_yGwFszMKrhuu2Op454z7hytVXGsGolyYvKfCj206Yng1R7sFi-o0iEdVwGHCdfmEqew4826zHnsbN6IAKAemJv5Y21zW2tbjIuY868g4d3IcTpxqQfpbLaxUQlkUTGLtrBORhkupr_y6VcV1HO570w_8eqjsQH3snNkIA4gL0ryWxOLlx146UJE5TKGcgJjZJfg9h-E')" }} />
+          <div className="bg-cover bg-center" style={{ backgroundImage: "url('/images/projects/daan-utsav.jpg')" }} />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
         </div>
         <Reveal variant="fade-up" className="relative z-10 max-w-5xl text-center flex flex-col items-center gap-8">
