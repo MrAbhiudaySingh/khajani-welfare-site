@@ -22,7 +22,7 @@ const DonatePage = () => {
               </div>
               <div className="mt-12 space-y-6">
                 <h3 className="text-sm font-bold tracking-widest uppercase text-muted-foreground">Your Impact Today</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
 {[
   { amount: "₹200", desc: "Hygiene Kit" },
   { amount: "₹500", desc: "Stationery Kit" },
