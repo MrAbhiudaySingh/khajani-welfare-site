@@ -46,7 +46,7 @@ const CollaborationsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" className="lg:col-span-7 lg:order-1 relative">
               <div className="relative z-10">
-                <img alt="Women in tailoring workshop" className="w-full h-[500px] object-cover shadow-2xl grayscale hover:grayscale-0 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3mVW_d8whlvLoRFww93gL58v7rzAuyndWIu-RiiF3kZtqUGzy1hZrCkMoU8fENm-G2dlPa3IJL2iry5p1o6XJoHzM-0vCM03oZ8Tz0uDp-hNFBPtPq4Ff6fDrra1oKzm4vuHBGqVgx0D_L818v6KWvEmwPfhTt-h9H-xdKrCGCoOo8JKlEm7B8arm7rN9wF4g9TnPF7qGw_yWRy-eA5u4bXISzlRT5mBS9xifovjugkXkqTRajTF6gEWKWH_s498objmUR-FlcV8" />
+                <img alt="Women in tailoring workshop" className="w-full h-[500px] object-cover shadow-2xl grayscale hover:grayscale-0 transition duration-700" src="/images/projects/upsdm-tailor.jpg" />
               </div>
               <div className="absolute -bottom-6 -left-6 w-full h-full bg-primary -z-10"></div>
             </Reveal>
