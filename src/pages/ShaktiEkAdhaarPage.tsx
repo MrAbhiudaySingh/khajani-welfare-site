@@ -26,7 +26,7 @@ const ShaktiEkAdhaarPage = () => {
           <Reveal variant="fade-left" delay={200} className="flex-1 w-full grid grid-cols-2 gap-4 h-[400px] lg:h-[600px]">
             <div
               className="bg-cover bg-center rounded-sm h-full shadow-2xl"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo')" }}
+              style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-1.jpg')" }}
             />
             <div className="grid grid-rows-2 gap-4 h-full">
               <div
