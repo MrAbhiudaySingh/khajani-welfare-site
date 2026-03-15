@@ -129,8 +129,8 @@ const KLAPage = () => {
               </div>
             </Reveal>
             <Reveal variant="fade-left" delay={200} className="order-1 lg:order-2 grid grid-cols-2 gap-4">
-              <img alt="Library resources" className="rounded-lg w-full h-full object-cover translate-y-8 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAn5tLHyZRX5z71cM0Uxg3Xz-5ZKY7mnbFup3-YbCQSbGXP5kVz-lx_cfljpniTTrP5oSBfdZdOVbmR2oQ2Ku9Oa83d2q7KIXP7ZCGSK2LqxYujJaga2HZGxJRijx4tiqPltW-UhOF6BfhGEnbPi9h9EWHPDB2RkfmCVIUVFk7VZVoXDxrtP02s7lRPkl4wmutm9mSx4TbCBCsFFBmF0P5_JjKEg6Z6CUV1m2deHnIjnG9KL8qDjPqHccibl1QlukdSIEYe-NhJ5Bw" />
-              <img alt="Modern classroom setup" className="rounded-lg w-full h-full object-cover -translate-y-8 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2AnTTFfjRsu35Nn6uOgi5dnryTo6BbMunfSXLyvHvZXhlayB6Jks8UVlhGhB21oD3W-Ce3MrzddKom06KuLJEGEOHKuCqJlE-xhvSRKpcMTn0woTWlZhT0A8m-6dzhLmAKZnQlL91GZqnjA_lgY07Z_cJjqJ7u2oN4XphIBvE6Xdd61m445kSZBbgnILu7eI2Jp5eghoOEwgrOFwBXhircOmu06hSF30K8AnincPpmRUReyOVWN4rCXpoTJdPdU46ACzFwMdc5xM" />
+              <img alt="Students studying in classroom" className="rounded-lg w-full h-full object-cover translate-y-8 shadow-2xl" src="/images/projects/kla-classroom-1.jpg" />
+              <img alt="Girls in school uniform learning" className="rounded-lg w-full h-full object-cover -translate-y-8 shadow-2xl" src="/images/projects/kla-classroom-2.jpg" />
             </Reveal>
           </div>
         </div>
