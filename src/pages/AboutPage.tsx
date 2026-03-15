@@ -147,7 +147,7 @@ const AboutPage = () => {
                   <Reveal key={person.name} variant="fade-up" delay={i * 150}>
                     <div className="text-center group">
                       <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary-foreground/10 group-hover:border-accent transition-colors duration-300">
-                        <img alt={person.name} className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500" src={person.img} />
+                      <img alt={person.name} className="w-full h-full object-cover transition-all duration-500" src={person.img} />
                       </div>
                       <h3 className="text-2xl font-display font-medium text-primary-foreground mb-1">{person.name}</h3>
                       <p className="text-secondary text-xs font-bold uppercase tracking-wider mb-4">{person.role}</p>
