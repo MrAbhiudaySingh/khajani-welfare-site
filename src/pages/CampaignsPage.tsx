@@ -305,7 +305,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[3/4] md:aspect-[4/3] w-full overflow-hidden">
-                <img alt="Covid Relief" className="w-full h-full object-cover filter sepia contrast-125 hover:contrast-100 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2siOju1DZRF0meQDeIzOsH2wYWCWD53vtUwjLphhPL4a22wWb0KNrFdwDc0WxCBSt7utsBmGy5jwfvWhaS-yPEAik2uMn-BwKV8kn3CxRCuKfBdvzh0NtquYgMRareZXIryaKy8HUz864ntQi4wo8-hKeZ6Mnf_Ft-R5C4_o2cLbHUV6XzJdgQgMwdYymw59S1E-8LW2atrq1y_fAZ5ONsO0CkVnOnfF4Hg2_SU_bUp2vibNk1rNSXYbdpLnrUKRFTGscxz9w6Kc" />
+                <img alt="Covid Relief" className="w-full h-full object-cover filter sepia contrast-125 hover:contrast-100 transition duration-700" src="/images/projects/brij-anshuman-icon.jpg" />
               </div>
             </Reveal>
           </div>
