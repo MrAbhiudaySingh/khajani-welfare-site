@@ -137,8 +137,8 @@ const BrijHunarPage = () => {
         </Reveal>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {[
-            { quote: "Before joining the Brij-Hunar project, I had never touched a computer. Today, I work as a Data Entry Operator in a reputed logistics firm.", name: "Amit Kumar", batch: "Batch 2021 • Logistics", img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80" },
-            { quote: "My family was hesitant about me working. The counseling team convinced my parents. I learned sewing and tailoring, and now I run my own boutique from home.", name: "Priya Singh", batch: "Batch 2022 • Apparel", img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80" },
+            { quote: "Before joining the Brij-Hunar project, I had never touched a computer. Today, I work as a Data Entry Operator in a reputed logistics firm.", name: "Amit Kumar", batch: "Batch 2021 • Logistics", img: "/images/projects/brij-hunar-computer-class.jpg" },
+            { quote: "My family was hesitant about me working. The counseling team convinced my parents. I learned sewing and tailoring, and now I run my own boutique from home.", name: "Priya Singh", batch: "Batch 2022 • Apparel", img: "/images/projects/brij-hunar-tailoring.jpg" },
           ].map((t, i) => (
             <Reveal key={t.name} variant="fade-up" delay={i * 150}>
               <div className="bg-card p-10 border border-border hover:shadow-xl transition-shadow relative h-full">
