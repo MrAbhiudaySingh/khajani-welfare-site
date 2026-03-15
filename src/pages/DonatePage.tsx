@@ -22,13 +22,14 @@ const DonatePage = () => {
               </div>
               <div className="mt-12 space-y-6">
                 <h3 className="text-sm font-bold tracking-widest uppercase text-muted-foreground">Your Impact Today</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {[
-                    { amount: "₹1,000", desc: "Provides School Uniforms" },
-                    { amount: "₹2,500", desc: "Medical Kit for a Family" },
-                    { amount: "₹5,000", desc: "Skill Training for One Woman" },
-                    { amount: "₹10,000", desc: "Water Filtration Unit" },
-                  ].map((item, i) => (
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+{[
+  { amount: "₹200", desc: "Hygiene Kit" },
+  { amount: "₹500", desc: "Stationery Kit" },
+  { amount: "₹750", desc: "Dry Ration Kit" },
+  { amount: "₹1,000", desc: "School Uniforms" },
+  { amount: "₹6,100", desc: "Educational Support" },
+].map((item, i) => (
                     <Reveal key={item.amount} variant="fade-up" delay={i * 80}>
                       <div className="p-6 bg-card shadow-sm border border-border rounded-lg group hover:border-accent transition-colors">
                         <div className="text-2xl font-bold text-primary mb-1">{item.amount}</div>
