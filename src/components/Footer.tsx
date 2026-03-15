@@ -21,6 +21,7 @@ const Footer = () => {
               <div className="flex flex-col gap-1 text-xs opacity-70">
                 <a href="tel:+918373990809" className="hover:text-accent transition">📞 +91-8373990809</a>
                 <a href="tel:+919868518738" className="hover:text-accent transition">📞 +91-9868518738</a>
+                <a href="mailto:info@khajaniwelfaresociety.com" className="hover:text-accent transition">✉️ info@khajaniwelfaresociety.com</a>
                 <a href="mailto:khajaniwelfaresociety@gmail.com" className="hover:text-accent transition">✉️ khajaniwelfaresociety@gmail.com</a>
               </div>
             </div>
