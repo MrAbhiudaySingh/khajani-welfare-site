@@ -18,7 +18,7 @@ const skills = [
   {
     title: "Precision Cutting",
     desc: "Mastering specific measurements and unique cuts required for authentic Radha Krishna attire.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCBa1Iu-aJP3wCMcXw9xFW3sdepHN42d7q1-BW86a85PO4Sxebp7IMrwNzoN4XK47iW_s74-4Io2wUIn3rpoDM5kzlr4bYioI_plPU0j0spcCXbyS5N14Si4GXMVYXWe8cYQyZ_VFMLgdDBAU_uHN1XIRY31tLQnJOMBEiJcw97_mZ9tIhrd-jTtwLHfc_Zkr_or5LEyPZRAxgNfNUDj7_2Ji7BgeaodadfgYzMRDTv4GIJO7CalC98-RwonP1nLXrpFGmpnW2Ock0",
+    image: "/images/projects/brij-hunar-sewing-hall.jpg",
     aspect: "aspect-[4/3]",
   },
   {
