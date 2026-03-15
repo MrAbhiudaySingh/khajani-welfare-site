@@ -22,8 +22,6 @@ const newsClippings = [
 ];
 
 const pressReviews = [
-  { image: "/images/media/press-review-1.jpg", title: "Dainik Jagran Feature" },
-  { image: "/images/media/press-review-2.jpg", title: "Regional Coverage" },
   { image: "/images/media/press-review-3.jpg", title: "Award Ceremony" },
   { image: "/images/media/press-review-4.jpg", title: "Community Impact" },
   { image: "/images/media/press-review-5.jpg", title: "Skill Training" },
