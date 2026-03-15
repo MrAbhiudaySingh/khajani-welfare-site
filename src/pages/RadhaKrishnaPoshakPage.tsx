@@ -30,7 +30,7 @@ const skills = [
   {
     title: "Embellishing & Zari Work",
     desc: "The pinnacle of the craft: adding intricate sequins, beadwork, and metallic thread (zari) embroidery to elevate the poshak to divine standards.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJopQ5YnEr0pq_LZ5v3ApXmo6FwQGlcVl8e4H2-GbX9GsQj5z-u16QO3SbA3gsu8myvB7fLqq2JbXvaPlqBUXPpVoBygNXwx1PICr8dB1qtLoWb3Tu3fGMJ7rnprEl58UygJtEtvEX3PtwtfPLLS30A3P1PcSpU7d_d-1Kr1o2Xa2EqQeo1IJM_Kc7yX5gRfiF5cmncchP3k6llBTwsLCgAIOCA66kxe3nCsPV9Jlw0X2qdoIfvhiPgmNNaN0_Z-frYXFDDODUVRE",
+    image: "/images/projects/brij-hunar-beauty.jpg",
     aspect: "aspect-[21/9]",
     wide: true,
   },
