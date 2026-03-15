@@ -269,7 +269,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-left" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[16/9] w-full overflow-hidden border-8 border-card shadow-xl">
-                <img alt="Blood Donation Camp" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF2D4L5LUGW77QaYzTFI9JI-_gbQb7mztotdVAaeudBKccwM2ZOXA1YGSpMEZ7vCKBhPt4LwpUphaADzAErH70OPwyCuTjQGWZkWDT1WycHQVHwOXqmSUFl7_omOQP_N9GMxfKfm8Ph_0lLTHCaqKcMdR4WWijHGdSHoZW9mzZgCPv62viOinTBdLfMjZz1iRBswuBrkyH8qfHaKPisdkRzEF4wiOfPZi86feZxgCB3os_nNXb8HAoQ06M9eeMFc-Ey46KdDkXfrk" />
+                <img alt="Blood Donation Camp at Khajani Welfare Society" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-1000" src="/images/projects/blood-donation-camp.jpg" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 bg-black/40">
                   <span className="border border-white text-white px-6 py-2 uppercase tracking-widest text-xs font-bold">Register as Donor</span>
                 </div>
