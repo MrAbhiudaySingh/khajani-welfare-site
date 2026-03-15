@@ -82,8 +82,8 @@ const PartnershipInquiryPage = () => {
                   <label className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1 block">Message</label>
                   <Textarea placeholder="How would you like to collaborate?" rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
                 </div>
-                <Button type="submit" size="lg" className="w-full gap-2">
-                  <Send size={16} /> Send Inquiry
+                <Button type="submit" size="lg" className="w-full gap-2" disabled={isSubmitting}>
+                  <Send size={16} /> {isSubmitting ? "Sending..." : "Send Inquiry"}
                 </Button>
               </form>
             </Reveal>
