@@ -20,7 +20,7 @@ const projects: Project[] = [
     title: "Project Brij-Hunar",
     description: "Empowering rural women through advanced pottery and rural training, connecting local artisans directly to urban markets to ensure…",
     category: "Vocational",
-    image: "/images/projects/brij-hunar-training.jpg",
+    image: "/images/projects/brij-hunar-icon.jpg",
     link: "/projects/brij-hunar",
   },
   {
