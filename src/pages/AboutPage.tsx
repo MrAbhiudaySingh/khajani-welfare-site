@@ -1,8 +1,10 @@
+import { useState } from "react";
 import Layout from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
 import { Handshake, Users, FileCheck, Award, Building2, Briefcase, GraduationCap, BookOpen, Landmark } from "lucide-react";
 
 const AboutPage = () => {
+  const [activeMap, setActiveMap] = useState<"office" | "center">("office");
   return (
     <Layout>
       {/* Hero */}
@@ -173,9 +175,26 @@ const AboutPage = () => {
           <Reveal variant="scale">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 border border-border bg-card shadow-xl">
               <div className="relative h-[600px] w-full bg-muted overflow-hidden">
+                <div className="absolute top-4 left-4 z-10 flex gap-2">
+                  <button
+                    onClick={() => setActiveMap("office")}
+                    className={`px-4 py-2 text-xs font-bold uppercase tracking-widest rounded-full border transition-colors ${activeMap === "office" ? "bg-accent text-accent-foreground border-accent" : "bg-card text-muted-foreground border-border hover:border-accent"}`}
+                  >
+                    Office
+                  </button>
+                  <button
+                    onClick={() => setActiveMap("center")}
+                    className={`px-4 py-2 text-xs font-bold uppercase tracking-widest rounded-full border transition-colors ${activeMap === "center" ? "bg-accent text-accent-foreground border-accent" : "bg-card text-muted-foreground border-border hover:border-accent"}`}
+                  >
+                    Center
+                  </button>
+                </div>
                 <iframe
-                  title="Khajani Welfare Society - Mathura HQ"
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khajani+Welfare+Society,+Gali+Sales+Tax,+Dampier+Nagar,+Mathura,+Uttar+Pradesh&zoom=17"
+                  title={activeMap === "office" ? "Khajani Welfare Society - Office" : "Khajani Welfare Society - Training Centre"}
+                  src={activeMap === "office"
+                    ? "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khajani+Welfare+Society,+Gali+Sales+Tax,+Dampier+Nagar,+Mathura,+Uttar+Pradesh&zoom=17"
+                    : "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khajani+Welfare+Society+Training+Centre,+Mathura,+Uttar+Pradesh&zoom=17"
+                  }
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
