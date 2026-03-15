@@ -97,7 +97,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative mt-12 lg:mt-0">
               <div className="relative aspect-[3/4] md:aspect-[4/3] w-full overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-700">
-                <img alt="Brij-Seva" className="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmcqKyuFnUb8Doh7mMIC9c1l5hgIHRcfQxMx6u0i4hpIaTx9_AvLXQsDVjiiRz3b7_vqSiihiGbPwaMFk2WEbyjgBwbJBmv-ocWuMJqiY1yI0ZZ7nL8mrebql3-VDgFGBWZGMrXjVq8B6UVFZO8J8ifmyehdIAgrAoSQlnYkX5cnc23E_yO1X8T9e-_AU3y2Yg-SfKNTFzcFtL6Qhhy2QCO1lK15Dyu7JGaZV6s9x8feKMyNjOWJo4M7jVp7tVRJwDY1TM_AEuvAE" />
+                <img alt="Brij-Seva" className="w-full h-full object-cover object-center" src="/images/projects/brij-seva-icon.jpg" />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
               </div>
             </Reveal>
