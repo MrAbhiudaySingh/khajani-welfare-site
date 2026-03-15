@@ -6,7 +6,7 @@ const programs = [
   {
     title: "Fashion & Apparel",
     desc: "Integrate Sanjhi art motifs into contemporary fashion and textiles. Learn the precise application of stencils on various fabrics to create high-end cultural couture.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA4PeHsKvu40V3qmbY5jBN9SUrP_IcCCybJIO5qPFgNLEz7uGFMnSEgHQGPUnQHGofhhJlile4QO9-7MX84M-X_NhusbkhrFi_12wFNpJwJgIaZFUpTGeS1wIJZwaweNc3cTBMqp5vDxAq1iADKdSt2DcQg51C3IWRLd9Hk_D_altlL6TTVXyrUGAxBOEIs1IzThvpiZQ1Pd9aMDI_TF-Fs_G9MFdH6GC0vGIhR_jgCrkbUrnN3JWnHe4OY40I3alXmIa6vRg3PHnY",
+    image: "/images/projects/royal-sanjhi-training.jpg",
   },
   {
     title: "Interior Design",
