@@ -245,7 +245,7 @@ const CampaignsPage = () => {
                   <img alt="Plantation Drive 1" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="/images/projects/brij-seva-plantation.jpg" />
                 </div>
                 <div className="aspect-[3/4] overflow-hidden rounded-bl-[50px] mt-12">
-                  <img alt="Plantation Drive 2" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApl59XFP68tcEBuZcRyxw47tmJv98AcqAzcBiqZ73qqCK0IU6W4UHUDV_Rm5uVM-6lL2s2EjEb2VZeWWU8bVpjgrSQSF-abT0DaGtJ22kCgG7pC2bjCXMk741RkMHnNFwOeLubVIqwJzIhjUZjNVmga0SgxeCqulSYLg3ocpr03bJ9aQaLhP4YJfv4LrPclR6M-60ti1MmDBVIJyAHuy7FIQPBOSn6yFyssBBzFNHh_UEn92gRKjf6aZ--bGDT_c-9Z8057v7Kg4Q" />
+                  <img alt="Plantation Drive 2" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="/images/projects/brij-seva-plantation.jpg" />
                 </div>
               </div>
             </Reveal>
