@@ -10,7 +10,7 @@ const programs = [
     title: "Self Employed Tailor",
     desc: "A comprehensive curriculum focusing on garment construction, pattern making, and entrepreneurial skills essential for setting up an independent tailoring business.",
     skills: ["Advanced Stitching Techniques", "Business Management & Marketing", "Quality Control Standards"],
-    image: "/images/projects/upsdm-sewing.jpg",
+    image: "/images/projects/upsdm-tailor.jpg",
   },
   {
     tag: "Wellness Program",
