@@ -173,7 +173,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[16/9] w-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-500">
-                <img alt="Jal Seva Campaign" className="w-full h-full object-cover transition duration-1000 transform group-hover:scale-105 filter grayscale-[10%] group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyVjCviV7BY5TkXi49u1chx-U-yB6gZDZVBrF93Ic3Q67dKVLZblI5zTMUULRh30lMIhxBlTF9BwUrHAhASNKuakevk4gJYy9tiNlJy72ZMloAHR-vmxpHA_bAi8cyRuGrdLwrZnin9PcY0rO_wp0Kr8UTwn4-Azg2pFSiUsYhwOPmc0Fp5iVmTxk7wNkhggxk_wPlcJr5naYYjxkg205wmWbicqTwgVD6TZVauTWlAwU2po0kk8tw1OYUro29jP71CxsLeZGAieM" />
+                <img alt="Jal Seva Campaign" className="w-full h-full object-cover transition duration-1000 transform group-hover:scale-105 filter grayscale-[10%] group-hover:grayscale-0" src="/images/projects/brij-seva-jal.jpg" />
                 <div className="absolute top-6 right-6 bg-blue-600 text-white p-4 shadow-lg">
                   <span className="block text-center font-display text-2xl font-bold">50+</span>
                   <span className="block text-[10px] font-bold uppercase tracking-widest">Kiosks Active</span>
