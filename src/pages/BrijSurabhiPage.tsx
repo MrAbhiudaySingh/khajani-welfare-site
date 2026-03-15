@@ -92,7 +92,7 @@ const BrijSurabhiPage = () => {
             </Reveal>
             <Reveal variant="fade-left" delay={200} className="lg:col-span-7 order-1 lg:order-2 relative group cursor-pointer">
               <div className="overflow-hidden shadow-2xl">
-                <img alt="Cow Dung Products" className="w-full aspect-square md:aspect-[16/11] object-cover transition-all duration-700 grayscale hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOOJ7EbGJ11KdEFaYYJIu_QvQT5mHWoL0I-3QMSQhaPRk9NtrwEo9p3bL9uKulqiPINPrj0f9WM2HCb96AedEwT0gQvj-8QkN4KJdq6__E96kYsRhocnEgwFThEWrTCYkKWbcPjWjrcmfhOophNQvcf3YDyb0tgQcIm10C3qNtg_DRcQaBtLC6GCozeUIF4xS1ALl12_Xyks15WgV1bQ0eBD6APhOWK5HMYk7yKpPVvRHM9baPeRg97oRqrvmB7GJa_1kmts2CJwo" />
+                <img alt="Cow Dung Products" className="w-full aspect-square md:aspect-[16/11] object-cover transition-all duration-700 grayscale hover:grayscale-0" src="/images/projects/brij-surabhi-cow-craft.jpg" />
               </div>
               <div className="absolute bottom-0 right-0 bg-primary text-primary-foreground p-8 translate-y-4 translate-x-4 lg:translate-x-8 lg:translate-y-8 z-10 w-64 text-center">
                 <span className="block text-xs font-bold tracking-widest uppercase mb-1 opacity-70">Division 01</span>
