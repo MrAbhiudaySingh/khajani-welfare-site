@@ -69,7 +69,7 @@ const projects: Project[] = [
     title: "Brij-Surabhi Temple Waste",
     description: "Transforming temple floral offerings into sustainable luxury products like incense, perfumes, and handmade paper.",
     category: "Environment",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCVXNr6Hnnqm2BbpUiwGQAwr935-T4Oe0PXFN1VALA1jB3X2M3ecdF6I7qAHoBzcXUtfcIz-LjSxYXVNOQpQJIkykWiqMvqYbicumcnxsuXFfoT9zhZmdaO6jDEWY-eUoeX_rmNddyTwPaQuq7Wwj-EZAH-R8jAl190hv8xRM0D6GGzdXX1FOXwDFspD9gOFZcnZV6KMboxoUw-Q4_wbOM5uivNfR4qR2QTmexPUrso3BWwGUMwZRYo6dNH8ZiW3-y0ZoDK_S58bDA",
+    image: "/images/projects/brij-surabhi-cow.jpg",
     link: "/projects/brij-surabhi-temple-waste",
   },
   {
