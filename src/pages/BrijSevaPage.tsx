@@ -63,7 +63,7 @@ const BrijSevaPage = () => {
             <div className="absolute inset-0 bg-accent translate-x-4 translate-y-4" />
             <div
               className="w-full aspect-[4/3] bg-cover bg-center relative z-10 border-2 border-primary grayscale hover:grayscale-0 transition-all duration-700"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCKRDk2Ba-LoWtau4Y6ed0WeMm5kNUqnYwYrda7j7xv4zM1F-ZFpCGcpeo4tsDosRHne34Za48-Ub2xUjDCZJSbr-aDskBngBj2hTjxc6AuMtBUYnLYVCLd0B8n9TCFeaDzkOctMpqbjhFFTFsA-tcFEek-ndMS3-Zumgc8A4afgiDQA4TFCksOC55BT44rBfDD8ez4OGFPjEGKHydGE0RN5Y8m9Tg-vV30lUXAg-xh9vmjZYhK8Oxp4mM0MXHkd6pi7DpK-kPXWVw')" }}
+              style={{ backgroundImage: "url('/images/projects/brij-seva-jal.jpg')" }}
             />
           </Reveal>
         </article>
