@@ -90,7 +90,7 @@ const projects: Project[] = [
     title: "Shakti Ek Adhaar",
     description: "Flagship International Women's Day event honoring feminine strength, resilience, and outstanding societal contributions.",
     category: "Culture",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo",
+    image: "/images/projects/shakti-ek-adhaar-1.jpg",
     link: "/projects/shakti-ek-adhaar",
   },
   {
