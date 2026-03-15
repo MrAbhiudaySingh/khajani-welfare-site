@@ -9,7 +9,7 @@ const ShaktiEkAdhaarPage = () => {
       <section className="bg-primary text-primary-foreground px-6 py-20 lg:py-32 relative overflow-hidden">
         <div
           className="absolute inset-0 opacity-10 bg-cover bg-center mix-blend-overlay"
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo')" }}
+          style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-1.jpg')" }}
         />
         <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center gap-16">
           <Reveal variant="fade-right" className="flex-1 flex flex-col gap-8">
@@ -26,16 +26,16 @@ const ShaktiEkAdhaarPage = () => {
           <Reveal variant="fade-left" delay={200} className="flex-1 w-full grid grid-cols-2 gap-4 h-[400px] lg:h-[600px]">
             <div
               className="bg-cover bg-center rounded-sm h-full shadow-2xl"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo')" }}
+              style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-1.jpg')" }}
             />
             <div className="grid grid-rows-2 gap-4 h-full">
               <div
                 className="bg-cover bg-center rounded-sm shadow-2xl"
-                style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBPP3DePLWWhtWrNP3va7rMqjMaJ0rPvK9q8wkVJqmDUm4X6GgDcYrYcw-m1sVPeowH3dSCmSA_eb1ljMSm9lwUmCFeHb3UVpnwSt1mivhSeqeOQDNbS64b8HVBp31kmRQAeUv1X6R1fUpJPPPf49SCGIyxpof-SYWe_O1kxPwnaYWHfb8VkWQnsDS7Sfdgu1Q4_9NHv7hn5aFvq5x0XIEJyUQrec6hsjk_BoULLYexW81kbk0zSre0hmAzC1XTpPQGTwghxYnHQRY')" }}
+                style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-2.jpg')" }}
               />
               <div
                 className="bg-cover bg-center rounded-sm shadow-2xl"
-                style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJKD70OC_-S0xfrZFXM4PRR2HMtjZU-vkEE9SUDJZbOUC5zQ901z-CMV6_Oowjga23QMheKl87aJ_OgDDFkn2uQGRCFJPfILx9bQyHoEI4PBCpFVEaypq2c8KXeF-mO1-U9Y6kUC6Re-97E4vfA6xd4XE59wVwKw4Fh4ABQyudRCCE10ThchLJMD_im8mGrOdeF1IvOVl-iuw_95mTars7077fikZ6Dy2u5mtpSh178eBdTLpKopWxpotqOFwKumj6eTXb4BDQ91g')" }}
+                style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-3.jpg')" }}
               />
             </div>
           </Reveal>
@@ -78,19 +78,19 @@ const ShaktiEkAdhaarPage = () => {
                 icon: Award,
                 title: "Award Felicitation",
                 desc: "Honoring women who have broken barriers and made lasting impacts in their respective fields.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuARxwnWJ9L9gtaRmvJdQosqL7k1pwtN_SNlz6qN6nWSdhC2Vs7Nv4Il2GY2t-bNbJGW9t4L8GOBMpv245l26tfqmcw_xyXSNRwdg4JQX-Bfe1lW2GrGehIcxBLA4mdbT7dBS-XiZgMQXHrYZdBaUE3AUgMGSHWqPHU9HKod1mWQwGiBBnsJqZBTOrM06JVwd1z3Qs3ple9AJ_1JuAki9iudoxxRHRmonXifyElRNethofobHue7NsXi7tAfnR6rpi9nYdjIVz5z8fk",
+                img: "/images/projects/shakti-ek-adhaar-3.jpg",
               },
               {
                 icon: Theater,
                 title: "Cultural Performances",
                 desc: "Vibrant showcases of traditional and contemporary art forms celebrating womanhood.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqibpiFlxSluJ5xYAftpnXKNaCsjs2H9eYgYuFw8Z1K39mPKehf2YUavfto2qJwueqt_-2k7-GiM2RlZMICH2E_JxR8qPuVJl_Tznnhpw9Z8fe5FSgKztQm_llgeA2kcV7CuMwZPRNq1Rg0KVTEQ0wk01JG4vucEPJAXoAwkQlz4PjxzgpcAtXO-YTMjyEfXEIW-WYKgDlTjca7XBm8Qk6J6sgR21Tb6E9lHmlm7mUwkCobQtqrQh22r-Inzl9qn_Jw_NeMIBx5Qw",
+                img: "/images/projects/shakti-ek-adhaar-1.jpg",
               },
               {
                 icon: Users,
                 title: "Community Strength",
                 desc: "Building networks of support and amplifying inspiring stories from the grassroots.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD6ZBSjEOMz9KW7U4dCg2-myznpMWSfvzNR4a-grFa-VhTB2RPDwEAHtP04bkMoQ6OW9TGn7dlgpcjhKE9TGawnNevAHWej7Zl3hPI2CEFxIMKHOVqESsl7j2v_iCXV6nk3tWCmr5vihzI3YSry7qwhGczu09WbRE9l8XccszVBGyQwB51RPvK8qB5WCBszh4Vxu5wxfq-P4GnQQkgJ7TvVa_hEAro5ddkw99d5NMpVGuGwvl0kXKTBLGke2yKTpGXqAGEwW6Sw3mA",
+                img: "/images/projects/shakti-ek-adhaar-2.jpg",
               },
             ].map((item, i) => (
               <Reveal key={item.title} variant="fade-up" delay={i * 100}>

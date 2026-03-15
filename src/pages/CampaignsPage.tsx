@@ -97,7 +97,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative mt-12 lg:mt-0">
               <div className="relative aspect-[3/4] md:aspect-[4/3] w-full overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-700">
-                <img alt="Brij-Seva" className="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmcqKyuFnUb8Doh7mMIC9c1l5hgIHRcfQxMx6u0i4hpIaTx9_AvLXQsDVjiiRz3b7_vqSiihiGbPwaMFk2WEbyjgBwbJBmv-ocWuMJqiY1yI0ZZ7nL8mrebql3-VDgFGBWZGMrXjVq8B6UVFZO8J8ifmyehdIAgrAoSQlnYkX5cnc23E_yO1X8T9e-_AU3y2Yg-SfKNTFzcFtL6Qhhy2QCO1lK15Dyu7JGaZV6s9x8feKMyNjOWJo4M7jVp7tVRJwDY1TM_AEuvAE" />
+                <img alt="Brij-Seva" className="w-full h-full object-cover object-center" src="/images/projects/brij-seva-icon.jpg" />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
               </div>
             </Reveal>
@@ -110,7 +110,7 @@ const CampaignsPage = () => {
             <Reveal variant="fade-right" className="lg:col-span-7 relative order-2 lg:order-1">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] relative overflow-hidden mt-12">
-                  <img alt="Artisan" className="absolute inset-0 w-full h-full object-cover grayscale-[50%] hover:grayscale-0 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuKNcltRg1g0bg83gp5lp_L2-MQt0Rjl3h_OQr5kftMoqOSMooGeM5KJrTl2_Agw2jSDQShOBNNOCS76-qkGwVlaXeLonpjLFcm791VvefIbtnS3JTmo4barphpfTN6xToO0L_Y3Z8upPecGF6UGVxG8bPIaGgqn6--r33luLLEXBdlg6qOoC3R8nEA7ZN5Dl4xaDZ29Jctwf7HbWfxA5C1uoR6812EIV_MwyGlnG0CNAwu4hgI1rK-ziLrt9zp0FUC1vudP7v1EY" />
+                  <img alt="Artisan" className="absolute inset-0 w-full h-full object-cover grayscale-[50%] hover:grayscale-0 transition duration-500" src="/images/projects/brij-hunar-tailoring.jpg" />
                 </div>
                 <div className="aspect-[3/4] relative overflow-hidden bg-muted flex items-center justify-center p-8 text-center">
                   <div className="border border-border p-8 h-full w-full flex flex-col items-center justify-center">
@@ -173,7 +173,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[16/9] w-full overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-500">
-                <img alt="Jal Seva Campaign" className="w-full h-full object-cover transition duration-1000 transform group-hover:scale-105 filter grayscale-[10%] group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyVjCviV7BY5TkXi49u1chx-U-yB6gZDZVBrF93Ic3Q67dKVLZblI5zTMUULRh30lMIhxBlTF9BwUrHAhASNKuakevk4gJYy9tiNlJy72ZMloAHR-vmxpHA_bAi8cyRuGrdLwrZnin9PcY0rO_wp0Kr8UTwn4-Azg2pFSiUsYhwOPmc0Fp5iVmTxk7wNkhggxk_wPlcJr5naYYjxkg205wmWbicqTwgVD6TZVauTWlAwU2po0kk8tw1OYUro29jP71CxsLeZGAieM" />
+                <img alt="Jal Seva Campaign" className="w-full h-full object-cover transition duration-1000 transform group-hover:scale-105 filter grayscale-[10%] group-hover:grayscale-0" src="/images/projects/brij-seva-jal.jpg" />
                 <div className="absolute top-6 right-6 bg-blue-600 text-white p-4 shadow-lg">
                   <span className="block text-center font-display text-2xl font-bold">50+</span>
                   <span className="block text-[10px] font-bold uppercase tracking-widest">Kiosks Active</span>
@@ -242,10 +242,10 @@ const CampaignsPage = () => {
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 w-full">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] overflow-hidden rounded-tr-[50px]">
-                  <img alt="Plantation Drive 1" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAucoMSEonS0R7LaBWbSKsgZRY2OHbkubKiclomDpJSXPKLlwkY1sucpj3w_GOeetfd16qlsoY9D2-Hx9f20J2Uac7Rd1oDeEc3Fmo0gYaq5BW0Sc0LzXY6tmw7f5v8nTF9nA9mEwz-WqUS4RUsULgw3QsiTf5_ZwO_GIfDkrvfPRErVYOcOMyKK3_AcvRj93vcboDxtPCH77fjVcJRNPYrd7Eu3cwFT58oRUrZl-NsAZFWdMhvo8A1tJccThIik8PXhynG5kiN888" />
+                  <img alt="Plantation Drive 1" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="/images/projects/brij-seva-plantation.jpg" />
                 </div>
                 <div className="aspect-[3/4] overflow-hidden rounded-bl-[50px] mt-12">
-                  <img alt="Plantation Drive 2" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApl59XFP68tcEBuZcRyxw47tmJv98AcqAzcBiqZ73qqCK0IU6W4UHUDV_Rm5uVM-6lL2s2EjEb2VZeWWU8bVpjgrSQSF-abT0DaGtJ22kCgG7pC2bjCXMk741RkMHnNFwOeLubVIqwJzIhjUZjNVmga0SgxeCqulSYLg3ocpr03bJ9aQaLhP4YJfv4LrPclR6M-60ti1MmDBVIJyAHuy7FIQPBOSn6yFyssBBzFNHh_UEn92gRKjf6aZ--bGDT_c-9Z8057v7Kg4Q" />
+                  <img alt="Plantation Drive 2" className="w-full h-full object-cover hover:scale-110 transition duration-700" src="/images/projects/brij-seva-plantation.jpg" />
                 </div>
               </div>
             </Reveal>
@@ -305,7 +305,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-right" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[3/4] md:aspect-[4/3] w-full overflow-hidden">
-                <img alt="Covid Relief" className="w-full h-full object-cover filter sepia contrast-125 hover:contrast-100 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2siOju1DZRF0meQDeIzOsH2wYWCWD53vtUwjLphhPL4a22wWb0KNrFdwDc0WxCBSt7utsBmGy5jwfvWhaS-yPEAik2uMn-BwKV8kn3CxRCuKfBdvzh0NtquYgMRareZXIryaKy8HUz864ntQi4wo8-hKeZ6Mnf_Ft-R5C4_o2cLbHUV6XzJdgQgMwdYymw59S1E-8LW2atrq1y_fAZ5ONsO0CkVnOnfF4Hg2_SU_bUp2vibNk1rNSXYbdpLnrUKRFTGscxz9w6Kc" />
+                <img alt="Covid Relief" className="w-full h-full object-cover filter sepia contrast-125 hover:contrast-100 transition duration-700" src="/images/projects/brij-anshuman-icon.jpg" />
               </div>
             </Reveal>
           </div>
@@ -316,7 +316,7 @@ const CampaignsPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <Reveal variant="fade-right" className="lg:col-span-7 relative">
               <div className="relative aspect-[16/9] w-full overflow-hidden shadow-2xl">
-                <img alt="Menstrual Hygiene Session" className="w-full h-full object-cover hover:scale-105 transition duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE9rbiodarb4WCh_18bGNT-9yxPmRyVdxGL_5VYePQtXyp-I1VqvG3NU1CPq7Y7gAA8KK_vWtZS2HvCeBCZMmw7tmXQiWakgkGzw_7AUg-dyp7BLg_lV6-6W-5EW2RGzjfEH4oDMWxXo6H-Me5weJZ6a5gJcqlCmRyq7Nn-_L5HZ_OPvQGFrv4iyQabZ0xc36nJfsEgw8cs9U4rUqQstr7EtvkmNAITnwdZveU7ttb9cg6c_bYQ8BL7GOheZR62bpReL4Uffewc50" />
+                <img alt="Menstrual Hygiene Session" className="w-full h-full object-cover hover:scale-105 transition duration-1000" src="/images/projects/sanitary-napkin.jpg" />
                 <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-4 py-2 text-xs font-bold uppercase tracking-widest">Education</div>
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary rounded-full flex items-center justify-center shadow-lg hidden lg:flex z-10">

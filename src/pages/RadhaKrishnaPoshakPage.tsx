@@ -6,31 +6,31 @@ const skills = [
   {
     title: "Design & Conceptualization",
     desc: "Understanding traditional motifs and translating devotional themes into intricate textile patterns.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBUFy2pAP8q-0bseQYk4kQXA6qR_MjTNdDMAg0PqFXJH3m0ewQectcYEnVGjLP4CTBiwQ-twQ0lOUZzZ17LSYA5MTrlUWV8OlCozlozODvMAD7uWNLslrAMpqGZSvgakFVkgr-faZKVtLMlhHzWWM62XcNssYc62arE0LBkT0GtWs1qoNZgNT9PUhaiO3RXNUfV9bpaqJlQSTPXLqORw6xAe9gy-ENh-v0am1uL8egSPSj9P9iDAqU63oxmwPEPEPncxzJ9xwCMSA8",
+    image: "/images/projects/poshak-sanjhi.jpg",
     aspect: "aspect-[4/3]",
   },
   {
     title: "Fabric Preparation",
     desc: "Selecting, treating, and preparing premium silks and cottons suitable for deity adornment.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDdbrccpn4c8vgZ9hqumz5a7caRmDmYUtJsiMcz-wYcVIna9S2ONF_UsLT1MPPUeMCGTdK0xIlgOwmIQ-hXDhIPXmEct8ORBCl9SvwAmgm5W-BT4oLZkWjkJo4_BENNmcp4d5XC6V3m3QTDQW6YIeW2O9fwWGcRuuRicp7AplORf3_S3G26XobLX1-K6aUKE1h733smliRnyOF_NQdwVEjdcz-J4c572kfKIekUKgL-uHpNDkuwbQAAUOCrxlcb0fI0kjk_GCeL_8I",
+    image: "/images/projects/brij-hunar-tailoring.jpg",
     aspect: "aspect-[4/3]",
   },
   {
     title: "Precision Cutting",
     desc: "Mastering specific measurements and unique cuts required for authentic Radha Krishna attire.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCBa1Iu-aJP3wCMcXw9xFW3sdepHN42d7q1-BW86a85PO4Sxebp7IMrwNzoN4XK47iW_s74-4Io2wUIn3rpoDM5kzlr4bYioI_plPU0j0spcCXbyS5N14Si4GXMVYXWe8cYQyZ_VFMLgdDBAU_uHN1XIRY31tLQnJOMBEiJcw97_mZ9tIhrd-jTtwLHfc_Zkr_or5LEyPZRAxgNfNUDj7_2Ji7BgeaodadfgYzMRDTv4GIJO7CalC98-RwonP1nLXrpFGmpnW2Ock0",
+    image: "/images/projects/brij-hunar-sewing-hall.jpg",
     aspect: "aspect-[4/3]",
   },
   {
     title: "Specialized Sewing",
     desc: "Advanced stitching techniques required to assemble complex, multi-layered garments seamlessly.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCdv02qbmlUXDCNW5e1k1GDEtQ13BXwKOvby_TlmJSiJOxxuKMjHccL9Xs4Q2X7CDA-_H9iPRKaI4DlvnRLIgiTOl_NiNkpW5i_PKgsuwXefrqOJ8sALLRuw9JEdXfzFb7-9oUlrrJjVEjoNNMRMobxJi68e01mUxfIEJ6rXz_incjUH0pJwdXZhj7VFQKtz5GODFzFR1cfJZaRw_SvbSavqnRp7ul--rp_L1dvGApAP-sHAnIpGqr4ssj6rEdCK1jVoTUFTQTRkaQ",
+    image: "/images/projects/brij-hunar-class.jpg",
     aspect: "aspect-[4/3]",
   },
   {
     title: "Embellishing & Zari Work",
     desc: "The pinnacle of the craft: adding intricate sequins, beadwork, and metallic thread (zari) embroidery to elevate the poshak to divine standards.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJopQ5YnEr0pq_LZ5v3ApXmo6FwQGlcVl8e4H2-GbX9GsQj5z-u16QO3SbA3gsu8myvB7fLqq2JbXvaPlqBUXPpVoBygNXwx1PICr8dB1qtLoWb3Tu3fGMJ7rnprEl58UygJtEtvEX3PtwtfPLLS30A3P1PcSpU7d_d-1Kr1o2Xa2EqQeo1IJM_Kc7yX5gRfiF5cmncchP3k6llBTwsLCgAIOCA66kxe3nCsPV9Jlw0X2qdoIfvhiPgmNNaN0_Z-frYXFDDODUVRE",
+    image: "/images/projects/brij-hunar-beauty.jpg",
     aspect: "aspect-[21/9]",
     wide: true,
   },
@@ -44,7 +44,7 @@ const RadhaKrishnaPoshakPage = () => {
         className="w-full relative min-h-[70vh] flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
-            'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAyXzr7tOBdf68nAnwCHcFFGMMFu4cLl3erehmbgH5AsERQI7C07eqD1VeIZq2cXuoAUSw8ob4tBIztMadd1xkVcdu38X7i_zJr-Y1HcSEzTV2qGA-nTHXatgxEie9ojvSex8LFM8uc4Tw3CIAB7EXdg6ryt8zbRU6MkCHFMpOn3dTWTQYH4xxg5MYD9RdnVGLqpYd294k7T3gCLcv3Ab1jyWu2UvVj9kKlMO0eclSmew_ilu0q_RA_kQp8_g_ZxlkiSlOAVjE82dg")',
+            'url("/images/projects/poshak-sanjhi.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-primary/60" />

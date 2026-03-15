@@ -28,7 +28,7 @@ const BrijSanginiPage = () => {
           <Reveal variant="fade-left" delay={200} className="w-full md:w-1/2">
             <div
               className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-cover bg-center"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzQPS-endf8wqmYGXf4tPUTGDAjluEDQZ4i7ZAH0jsUtCkucXy5VC6_1AFokFEpz1qRKzx_EjXf2Im2L7WtzSpe26x57irJZAGuyKFR7trxgPq3vHzRVuRyRYIdJSrSSY3klkoKYfYks1nsfg_UxcoDEEygKSyHeDGf33Yv32QUj4rnuyakp9p04Gmu1bobhCMRxvtwf5SN42Su-_W11mxrPAr6nSaUD4eI_Y0zqotuhIy6zyNEeFDS89kS0otvS_1XK2T8172Rw8')" }}
+              style={{ backgroundImage: "url('/images/projects/brij-sangini-icon.jpg')" }}
             >
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
             </div>

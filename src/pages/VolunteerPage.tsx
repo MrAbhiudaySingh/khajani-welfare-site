@@ -64,7 +64,7 @@ const VolunteerPage = () => {
               <img
                 alt="Volunteers in action"
                 className="w-full h-[500px] object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxr5KQupHqeh8_XbCbiW5P6rnABBZHybEgLs1YmXTv9mre0-R2x_76w_iMN0eZrTEb3L1rkaPRaPPn6IfbixB2F0qYCLXvGOgakPfu9fyp_UwKphbUtSfoLTe7B0kadLTCntM26ztznf3IedNWSupJmVyOcE7hepq5R8PjusFlbeSbGGRBw64SYSt_Zamq7LI0_aoM_PCVDO8kOKt3zXpRfRSwNTlEshnMQHmG1xV9p41u0hcXuPTRG__1UDESwfd20AOii2idvCk"
+                src="/images/projects/shakti-ek-adhaar-3.jpg"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-accent/10 rounded-full -z-10"></div>

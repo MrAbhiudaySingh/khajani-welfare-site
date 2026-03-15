@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: "Brij-Surabhi Cow Welfare",
     description: "Harmonious blend of animal welfare and rural empowerment, transforming waste into eco-friendly Panchagavya commodities.",
     category: "Environment",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDOOJ7EbGJ11KdEFaYYJIu_QvQT5mHWoL0I-3QMSQhaPRk9NtrwEo9p3bL9uKulqiPINPrj0f9WM2HCb96AedEwT0gQvj-8QkN4KJdq6__E96kYsRhocnEgwFThEWrTCYkKWbcPjWjrcmfhOophNQvcf3YDyb0tgQcIm10C3qNtg_DRcQaBtLC6GCozeUIF4xS1ALl12_Xyks15WgV1bQ0eBD6APhOWK5HMYk7yKpPVvRHM9baPeRg97oRqrvmB7GJa_1kmts2CJwo",
+    image: "/images/projects/brij-surabhi-cow-craft.jpg",
     link: "/projects/brij-surabhi-cow-welfare",
   },
   {
@@ -97,14 +97,14 @@ const projects: Project[] = [
     title: "Radha Krishna Poshak Training",
     description: "Preserving the sacred art of deity garment making through specialized artisan training in partnership with the World Bank aided UP Pro-Poor Tourism project.",
     category: "Culture",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAyXzr7tOBdf68nAnwCHcFFGMMFu4cLl3erehmbgH5AsERQI7C07eqD1VeIZq2cXuoAUSw8ob4tBIztMadd1xkVcdu38X7i_zJr-Y1HcSEzTV2qGA-nTHXatgxEie9ojvSex8LFM8uc4Tw3CIAB7EXdg6ryt8zbRU6MkCHFMpOn3dTWTQYH4xxg5MYD9RdnVGLqpYd294k7T3gCLcv3Ab1jyWu2UvVj9kKlMO0eclSmew_ilu0q_RA_kQp8_g_ZxlkiSlOAVjE82dg",
+    image: "/images/projects/poshak-sanjhi.jpg",
     link: "/projects/radha-krishna-poshak",
   },
   {
     title: "Royal Sanjhi Art Training",
     description: "Reviving the royal heritage of Brij stencil art through specialized MSME training programs in fashion, apparel, and interior design.",
     category: "Culture",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB7n3EdyUcgRoAnoe_NProYhibM8mwlSBf6rBKdEThGTVmK5PgFzU5ZFCnt7J7ontoELcBNskyiVB1KFJfSUkRLLI5BGw5NOfVst5M1aA2bVUaM5nUXBa57libIw0Z5rKyYEIXdnH1FaoGKbm4CZtXcfqdXKq3x9MioLnztjvSEE8To2zXkvtMCBIsDhiNqqrhW87vAp5-8apU0LeAb0HTVsjwYczjZeUjpSiBwY1owbqXkgsrqQ6il4HRvXbp6fobh9zw9cn5b4Yg",
+    image: "/images/projects/royal-sanjhi-training.jpg",
     link: "/projects/royal-sanjhi",
   },
   {

@@ -8,7 +8,7 @@ const BrijAnshumanPage = () => {
       {/* Hero */}
       <section
         className="relative w-full h-[600px] md:h-[700px] bg-center bg-cover bg-no-repeat flex items-end pb-20 px-10 md:px-20"
-        style={{ backgroundImage: "linear-gradient(to top, rgba(var(--primary-rgb, 10, 25, 48), 0.95), rgba(var(--primary-rgb, 10, 25, 48), 0.3)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBTQzNDGnOvQs3CTSkgcNAyeluwqtQbW9IyWPiwEqZCYcGc_7MybdyfW5kaZfy1NZ8x4z8AbMQPIf7oHWdclr0iC0SVlETUKu42I3Be8kBlf0S5s_oze5sunvpfyfXCtcxFWQL31VsI62XPtO5ZfEa4t6m_EiTsmHQvx6iye7fX0-JpH5ZvqZ_NkMobQiqZwAzgvf41xfldcRtb1j8hnwVpKLIMH7A4PFiIuR2vVQvJTF5dNiftqXTlKt_84Y2pmh2cRP7VeXrF-DU')" }}
+        style={{ backgroundImage: "linear-gradient(to top, rgba(var(--primary-rgb, 10, 25, 48), 0.95), rgba(var(--primary-rgb, 10, 25, 48), 0.3)), url('/images/projects/brij-anshuman-icon.jpg')" }}
       >
         <Reveal variant="fade-up" className="max-w-4xl relative z-10">
           <h1 className="text-primary-foreground text-5xl md:text-7xl font-display font-bold leading-tight tracking-tight">

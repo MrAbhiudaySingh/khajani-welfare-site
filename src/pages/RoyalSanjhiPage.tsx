@@ -6,12 +6,12 @@ const programs = [
   {
     title: "Fashion & Apparel",
     desc: "Integrate Sanjhi art motifs into contemporary fashion and textiles. Learn the precise application of stencils on various fabrics to create high-end cultural couture.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA4PeHsKvu40V3qmbY5jBN9SUrP_IcCCybJIO5qPFgNLEz7uGFMnSEgHQGPUnQHGofhhJlile4QO9-7MX84M-X_NhusbkhrFi_12wFNpJwJgIaZFUpTGeS1wIJZwaweNc3cTBMqp5vDxAq1iADKdSt2DcQg51C3IWRLd9Hk_D_altlL6TTVXyrUGAxBOEIs1IzThvpiZQ1Pd9aMDI_TF-Fs_G9MFdH6GC0vGIhR_jgCrkbUrnN3JWnHe4OY40I3alXmIa6vRg3PHnY",
+    image: "/images/projects/royal-sanjhi-training.jpg",
   },
   {
     title: "Interior Design",
     desc: "Apply stencil art techniques to elevate interior spaces and home decor. Master the scale and application of Brij aesthetics for luxury residential and commercial projects.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAn3OJhWtxDOyQVXQOtdXg8vQtG0VQoBR-2yO6ZxiAaDl9JJ3hWhJPWVDtKk12fI2PI4Kye7wrbp-QVho8XuAbaXcFqXmfLr4nM0d7-GJOPPWTwXibqYUOOx4Oq70OxFn3c95bHH0hcQk0ag2NlEJv5JNJkbIGtW-cZTPv9dQ0BEsIkXQRSkFK2ctSer86e4etPi3KoLOTK2LiWB35pLLSiM08wU3e8l-kzIkH8tZ0iJMXYsu6Lf6UBJ5N0bpZhBIzbK7UOO9lK_-Q",
+    image: "/images/projects/poshak-sanjhi.jpg",
   },
 ];
 
