@@ -110,7 +110,7 @@ const CampaignsPage = () => {
             <Reveal variant="fade-right" className="lg:col-span-7 relative order-2 lg:order-1">
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-[3/4] relative overflow-hidden mt-12">
-                  <img alt="Artisan" className="absolute inset-0 w-full h-full object-cover grayscale-[50%] hover:grayscale-0 transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuKNcltRg1g0bg83gp5lp_L2-MQt0Rjl3h_OQr5kftMoqOSMooGeM5KJrTl2_Agw2jSDQShOBNNOCS76-qkGwVlaXeLonpjLFcm791VvefIbtnS3JTmo4barphpfTN6xToO0L_Y3Z8upPecGF6UGVxG8bPIaGgqn6--r33luLLEXBdlg6qOoC3R8nEA7ZN5Dl4xaDZ29Jctwf7HbWfxA5C1uoR6812EIV_MwyGlnG0CNAwu4hgI1rK-ziLrt9zp0FUC1vudP7v1EY" />
+                  <img alt="Artisan" className="absolute inset-0 w-full h-full object-cover grayscale-[50%] hover:grayscale-0 transition duration-500" src="/images/projects/brij-hunar-tailoring.jpg" />
                 </div>
                 <div className="aspect-[3/4] relative overflow-hidden bg-muted flex items-center justify-center p-8 text-center">
                   <div className="border border-border p-8 h-full w-full flex flex-col items-center justify-center">
