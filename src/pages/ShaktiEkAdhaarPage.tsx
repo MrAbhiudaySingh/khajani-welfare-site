@@ -31,7 +31,7 @@ const ShaktiEkAdhaarPage = () => {
             <div className="grid grid-rows-2 gap-4 h-full">
               <div
                 className="bg-cover bg-center rounded-sm shadow-2xl"
-                style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBPP3DePLWWhtWrNP3va7rMqjMaJ0rPvK9q8wkVJqmDUm4X6GgDcYrYcw-m1sVPeowH3dSCmSA_eb1ljMSm9lwUmCFeHb3UVpnwSt1mivhSeqeOQDNbS64b8HVBp31kmRQAeUv1X6R1fUpJPPPf49SCGIyxpof-SYWe_O1kxPwnaYWHfb8VkWQnsDS7Sfdgu1Q4_9NHv7hn5aFvq5x0XIEJyUQrec6hsjk_BoULLYexW81kbk0zSre0hmAzC1XTpPQGTwghxYnHQRY')" }}
+                style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-2.jpg')" }}
               />
               <div
                 className="bg-cover bg-center rounded-sm shadow-2xl"
