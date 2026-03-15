@@ -84,7 +84,7 @@ const ShaktiEkAdhaarPage = () => {
                 icon: Theater,
                 title: "Cultural Performances",
                 desc: "Vibrant showcases of traditional and contemporary art forms celebrating womanhood.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqibpiFlxSluJ5xYAftpnXKNaCsjs2H9eYgYuFw8Z1K39mPKehf2YUavfto2qJwueqt_-2k7-GiM2RlZMICH2E_JxR8qPuVJl_Tznnhpw9Z8fe5FSgKztQm_llgeA2kcV7CuMwZPRNq1Rg0KVTEQ0wk01JG4vucEPJAXoAwkQlz4PjxzgpcAtXO-YTMjyEfXEIW-WYKgDlTjca7XBm8Qk6J6sgR21Tb6E9lHmlm7mUwkCobQtqrQh22r-Inzl9qn_Jw_NeMIBx5Qw",
+                img: "/images/projects/shakti-ek-adhaar-1.jpg",
               },
               {
                 icon: Users,
