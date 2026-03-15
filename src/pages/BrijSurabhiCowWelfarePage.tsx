@@ -60,8 +60,8 @@ const BrijSurabhiCowWelfarePage = () => {
               <h3 className="font-display text-3xl font-bold text-primary mb-8 border-b border-border pb-4">Our Products</h3>
               <div className="flex flex-col gap-8">
                 {[
-                  { img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD2FILufA-bIRhOl_1a1uYZ7-1EAQJfJiqK1HxOoj-r9-IAE_ztDvjEQ9gJY7UPJ_TNA5QJaDl2x3YPsdiydgJU5WJumoxa-iFu5zYmLCuVszdkl-DrQDyfOHI7DfyU8JGcb1MTlReK4wJ4QBSPzpQE7vGlwOB2ZziXQICZb7onYlxc_Qp-kkPmWQMNe2kW7ZNghuWOr_7nnbCr8dxt_9UFzGX7pDVkL5fJGZ2lLk8tb-LkRyW3dOt6lpQDcLkCiY-ta6aM87C7Avw", title: "10,000 Diyas", desc: "Handcrafted by local artisans for Diwali celebrations using traditional techniques." },
-                  { img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCs4kewSE28d8OblvkcEosi8LAHtHi8jtdcHJNTLHIJClbxxVO8-KE0MFxT-FjwXIlyw2faLLWYudRjCaNj2RdC-WOdPrzgPptRKkXjryoDeAckM2f-xVswAv12NZfurzSeJ77jKmaSMp0LL1vPiLE-jSSgNWT04sGbODYBOWUESGXx2JF8NMy2Ta-ImTdaO4m7yO-NMz0o92nWlI5q15NBNxVSAJtMSgS8ippEIhKiGQfLME-E6vx_kc8MfGKiZ4UJXTF_D8EAau4", title: "250 Lakshmi Ganesh Idols", desc: "Eco-friendly festive idols crafted from purified cow dung and natural clay." },
+                  { img: "/images/projects/brij-surabhi-diya.jpg", title: "10,000 Diyas", desc: "Handcrafted by local artisans for Diwali celebrations using traditional techniques." },
+                  { img: "/images/projects/brij-surabhi-idol-painting.jpg", title: "250 Lakshmi Ganesh Idols", desc: "Eco-friendly festive idols crafted from purified cow dung and natural clay." },
                 ].map((product) => (
                   <div key={product.title} className="bg-card border border-border p-6 hover:shadow-xl transition-shadow group">
                     <div className="w-full aspect-video mb-6 overflow-hidden bg-muted">

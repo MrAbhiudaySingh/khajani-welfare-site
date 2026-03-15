@@ -109,7 +109,7 @@ const BrijSurabhiPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <Reveal variant="fade-right" className="lg:col-span-7 relative group">
               <div className="relative z-10 shadow-2xl overflow-hidden">
-                <img alt="Temple Flowers Processing" className="w-full aspect-[4/3] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVXNr6Hnnqm2BbpUiwGQAwr935-T4Oe0PXFN1VALA1jB3X2M3ecdF6I7qAHoBzcXUtfcIz-LjSxYXVNOQpQJIkykWiqMvqYbicumcnxsuXFfoT9zhZmdaO6jDEWY-eUoeX_rmNddyTwPaQuq7Wwj-EZAH-R8jAl190hv8xRM0D6GGzdXX1FOXwDFspD9gOFZcnZV6KMboxoUw-Q4_wbOM5uivNfR4qR2QTmexPUrso3BWwGUMwZRYo6dNH8ZiW3-y0ZoDK_S58bDA" />
+                <img alt="Temple Flowers Processing" className="w-full aspect-[4/3] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700" src="/images/projects/brij-surabhi-flower-recycling.jpg" />
                 <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-card opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-12 text-center">
                   <Flower2 className="text-secondary mb-4" size={40} />
                   <h3 className="font-display text-3xl italic">From Waste to Fragrance</h3>
