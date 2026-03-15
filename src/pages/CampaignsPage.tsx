@@ -207,7 +207,7 @@ const CampaignsPage = () => {
             </Reveal>
             <Reveal variant="fade-left" delay={200} className="lg:w-7/12 relative">
               <div className="relative aspect-[4/3] w-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500">
-                <img alt="Daan Utsav" className="w-full h-full object-cover sepia-[30%] group-hover:sepia-0 transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdLETGnhSphr9IeQTbBOQDWtqYcLbIfod8aW9JHp_yrM-ErDvPkgUL-OaXfgZky6e25vBrOp1ss1_bpM0V2WIwabE96ru6YYHSgLqxcMu0FANL0ZPA3y6QqAnGDBhUEnvhqoDEGXZsxiENtBxS8bJU5hwR4WqCFhxcR125c3sZBbR4XBdcEUa6t2GXdw9x_zWO7KIyjM9w-VXANnXjUHesAzIhN0YnRx9skwUflB1lvsa3NVyrpFnx_eDDwCNSVfiBHjqAQqOR6g0" />
+                <img alt="Daan Utsav - Festival of Giving" className="w-full h-full object-cover sepia-[30%] group-hover:sepia-0 transition duration-700" src="/images/projects/daan-utsav.jpg" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80"></div>
                 <div className="absolute bottom-8 left-8 text-white max-w-sm">
                   <p className="font-display italic text-2xl">"Warmth is not just in the clothes we give, but in the hands that give them."</p>
