@@ -204,9 +204,10 @@ const VolunteerPage = () => {
             <div className="pt-6">
               <button
                 type="submit"
-                className="w-full bg-accent text-accent-foreground py-5 text-lg font-bold uppercase tracking-widest hover:bg-primary hover:text-primary-foreground transition-all"
+                disabled={isSubmitting}
+                className="w-full bg-accent text-accent-foreground py-5 text-lg font-bold uppercase tracking-widest hover:bg-primary hover:text-primary-foreground transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Submit Application
+                {isSubmitting ? "Submitting..." : "Submit Application"}
               </button>
             </div>
           </form>
