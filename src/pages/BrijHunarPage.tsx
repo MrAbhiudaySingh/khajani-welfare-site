@@ -159,6 +159,29 @@ const BrijHunarPage = () => {
             </Reveal>
           ))}
         </div>
+
+        {/* Training Gallery */}
+        <Reveal variant="fade-up" className="mt-24">
+          <h2 className="text-4xl font-display font-bold text-primary mb-8 text-center">Training in Action</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { src: "/images/projects/brij-hunar-computer-class.jpg", alt: "Computer training class" },
+              { src: "/images/projects/brij-hunar-tailoring.jpg", alt: "Tailoring and fashion training" },
+              { src: "/images/projects/brij-hunar-sewing-hall.jpg", alt: "Sewing workshop hall" },
+              { src: "/images/projects/brij-hunar-beauty.jpg", alt: "Beauty and cosmetology training" },
+              { src: "/images/projects/brij-nipun-workshop.jpg", alt: "Brij Nipun skill workshop" },
+              { src: "/images/projects/brij-nipun-classroom.jpg", alt: "Brij Nipun classroom session" },
+              { src: "/images/projects/brij-nipun-training.jpg", alt: "Brij Nipun training center" },
+              { src: "/images/projects/brij-hunar-class.jpg", alt: "Hands-on class session" },
+            ].map((img, i) => (
+              <Reveal key={i} variant="fade-up" delay={i * 80}>
+                <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-md group">
+                  <img src={img.src} alt={img.alt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       {/* CTA */}
