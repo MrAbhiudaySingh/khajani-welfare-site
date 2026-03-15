@@ -316,7 +316,7 @@ const CampaignsPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <Reveal variant="fade-right" className="lg:col-span-7 relative">
               <div className="relative aspect-[16/9] w-full overflow-hidden shadow-2xl">
-                <img alt="Menstrual Hygiene Session" className="w-full h-full object-cover hover:scale-105 transition duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE9rbiodarb4WCh_18bGNT-9yxPmRyVdxGL_5VYePQtXyp-I1VqvG3NU1CPq7Y7gAA8KK_vWtZS2HvCeBCZMmw7tmXQiWakgkGzw_7AUg-dyp7BLg_lV6-6W-5EW2RGzjfEH4oDMWxXo6H-Me5weJZ6a5gJcqlCmRyq7Nn-_L5HZ_OPvQGFrv4iyQabZ0xc36nJfsEgw8cs9U4rUqQstr7EtvkmNAITnwdZveU7ttb9cg6c_bYQ8BL7GOheZR62bpReL4Uffewc50" />
+                <img alt="Menstrual Hygiene Session" className="w-full h-full object-cover hover:scale-105 transition duration-1000" src="/images/projects/sanitary-napkin.jpg" />
                 <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-4 py-2 text-xs font-bold uppercase tracking-widest">Education</div>
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary rounded-full flex items-center justify-center shadow-lg hidden lg:flex z-10">
