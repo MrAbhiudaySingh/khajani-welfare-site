@@ -45,7 +45,7 @@ const BrijSurabhiTempleWastePage = () => {
           <Reveal variant="fade-left" delay={150} className="w-full md:w-5/12 order-1 md:order-2">
             <div
               className="aspect-[3/4] bg-cover bg-center shadow-xl border-[16px] border-card rotate-2"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDqS07CVWLumwcs0u8rxvrtL46bZ2ZxNuJ8ebROutfBOsvR4MNlXrgKH4z00r3KcdibB8iI_i7oTQp_my0txX9RSeQNU5TWtezHirr3ACIc0K4oUfd9EpFnSsBQsxl0ZjPn2_AGLNmWUWLq6cSkRYYXw1Y-Bz267wPQp2MXqPhMSr0fqoH4wJeujjbuqTqVtgPyj9QaAY9kjrEBfbiVNdsZIF82QFmaN34d3oAoW2d5JEUXH3NzQVyI2VTxS5QtrCB0K89AeCBg5Fc')" }}
+              style={{ backgroundImage: "url('/images/projects/brij-surabhi-flower-recycling.jpg')" }}
             />
           </Reveal>
         </div>
