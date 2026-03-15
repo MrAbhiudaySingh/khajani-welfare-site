@@ -35,7 +35,7 @@ const ShaktiEkAdhaarPage = () => {
               />
               <div
                 className="bg-cover bg-center rounded-sm shadow-2xl"
-                style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJKD70OC_-S0xfrZFXM4PRR2HMtjZU-vkEE9SUDJZbOUC5zQ901z-CMV6_Oowjga23QMheKl87aJ_OgDDFkn2uQGRCFJPfILx9bQyHoEI4PBCpFVEaypq2c8KXeF-mO1-U9Y6kUC6Re-97E4vfA6xd4XE59wVwKw4Fh4ABQyudRCCE10ThchLJMD_im8mGrOdeF1IvOVl-iuw_95mTars7077fikZ6Dy2u5mtpSh178eBdTLpKopWxpotqOFwKumj6eTXb4BDQ91g')" }}
+                style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-3.jpg')" }}
               />
             </div>
           </Reveal>
