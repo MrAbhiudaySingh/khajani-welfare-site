@@ -9,7 +9,7 @@ const ShaktiEkAdhaarPage = () => {
       <section className="bg-primary text-primary-foreground px-6 py-20 lg:py-32 relative overflow-hidden">
         <div
           className="absolute inset-0 opacity-10 bg-cover bg-center mix-blend-overlay"
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2tPVkze6FJmnjTzSn8342hvK_Ehfdc6tHF9bcB_aZfoz8fO4eFoNmoZArIbbUi011aEPGnG_itb5sLKFwhysPNodf74HInklGvIUa5knOm374zmqHo7TiTg-6nXgETF2L2XJn9PiM61Y_myqUmLOU2PLQoV_XVVf4QtXvuLAl5KJPn2cG7RtWajP0knACtgmugzfFyYiZJM92uyeLvcQqAdmeUlcra4oGyb6KqMnpH9flbFOLOOvLPr9F7M3rLVbirCeluBdYuMo')" }}
+          style={{ backgroundImage: "url('/images/projects/shakti-ek-adhaar-1.jpg')" }}
         />
         <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center gap-16">
           <Reveal variant="fade-right" className="flex-1 flex flex-col gap-8">
