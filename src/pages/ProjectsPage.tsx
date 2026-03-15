@@ -83,7 +83,7 @@ const projects: Project[] = [
     title: "Brij-Seva",
     description: "Uplifting communities through essential services including Jal Seva, plantation drives, and Daan Utsav giving campaigns.",
     category: "Environment",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCKRDk2Ba-LoWtau4Y6ed0WeMm5kNUqnYwYrda7j7xv4zM1F-ZFpCGcpeo4tsDosRHne34Za48-Ub2xUjDCZJSbr-aDskBngBj2hTjxc6AuMtBUYnLYVCLd0B8n9TCFeaDzkOctMpqbjhFFTFsA-tcFEek-ndMS3-Zumgc8A4afgiDQA4TFCksOC55BT44rBfDD8ez4OGFPjEGKHydGE0RN5Y8m9Tg-vV30lUXAg-xh9vmjZYhK8Oxp4mM0MXHkd6pi7DpK-kPXWVw",
+    image: "/images/projects/brij-seva-icon.jpg",
     link: "/projects/brij-seva",
   },
   {
