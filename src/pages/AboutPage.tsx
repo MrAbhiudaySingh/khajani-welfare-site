@@ -193,7 +193,7 @@ const AboutPage = () => {
                   title={activeMap === "office" ? "Khajani Welfare Society - Office" : "Khajani Welfare Society - Training Centre"}
                   src={activeMap === "office"
                     ? "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khajani+Welfare+Society,+Gali+Sales+Tax,+Dampier+Nagar,+Mathura,+Uttar+Pradesh&zoom=17"
-                    : "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khajani+Welfare+Society+Training+Centre,+Mathura,+Uttar+Pradesh&zoom=17"
+                    : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d221.16145897473746!2d77.675511!3d27.5133306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3973711c41e6011d%3A0x9d9880dcfc6f0c68!2sKHAJANI%20LEARNING%20ACADEMY!5e0!3m2!1sen!2sin!4v1773558202587!5m2!1sen!2sin"
                   }
                   width="100%"
                   height="100%"
