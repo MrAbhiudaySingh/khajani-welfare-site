@@ -137,8 +137,8 @@ const BrijHunarPage = () => {
         </Reveal>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {[
-            { quote: "Before joining the Brij-Hunar project, I had never touched a computer. Today, I work as a Data Entry Operator in a reputed logistics firm.", name: "Amit Kumar", batch: "Batch 2021 • Logistics", img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80" },
-            { quote: "My family was hesitant about me working. The counseling team convinced my parents. I learned sewing and tailoring, and now I run my own boutique from home.", name: "Priya Singh", batch: "Batch 2022 • Apparel", img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80" },
+            { quote: "Before joining the Brij-Hunar project, I had never touched a computer. Today, I work as a Data Entry Operator in a reputed logistics firm.", name: "Amit Kumar", batch: "Batch 2021 • Logistics", img: "/images/projects/brij-hunar-computer-class.jpg" },
+            { quote: "My family was hesitant about me working. The counseling team convinced my parents. I learned sewing and tailoring, and now I run my own boutique from home.", name: "Priya Singh", batch: "Batch 2022 • Apparel", img: "/images/projects/brij-hunar-tailoring.jpg" },
           ].map((t, i) => (
             <Reveal key={t.name} variant="fade-up" delay={i * 150}>
               <div className="bg-card p-10 border border-border hover:shadow-xl transition-shadow relative h-full">
@@ -159,6 +159,29 @@ const BrijHunarPage = () => {
             </Reveal>
           ))}
         </div>
+
+        {/* Training Gallery */}
+        <Reveal variant="fade-up" className="mt-24">
+          <h2 className="text-4xl font-display font-bold text-primary mb-8 text-center">Training in Action</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { src: "/images/projects/brij-hunar-computer-class.jpg", alt: "Computer training class" },
+              { src: "/images/projects/brij-hunar-tailoring.jpg", alt: "Tailoring and fashion training" },
+              { src: "/images/projects/brij-hunar-sewing-hall.jpg", alt: "Sewing workshop hall" },
+              { src: "/images/projects/brij-hunar-beauty.jpg", alt: "Beauty and cosmetology training" },
+              { src: "/images/projects/brij-nipun-workshop.jpg", alt: "Brij Nipun skill workshop" },
+              { src: "/images/projects/brij-nipun-classroom.jpg", alt: "Brij Nipun classroom session" },
+              { src: "/images/projects/brij-nipun-training.jpg", alt: "Brij Nipun training center" },
+              { src: "/images/projects/brij-hunar-class.jpg", alt: "Hands-on class session" },
+            ].map((img, i) => (
+              <Reveal key={i} variant="fade-up" delay={i * 80}>
+                <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-md group">
+                  <img src={img.src} alt={img.alt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       {/* CTA */}
