@@ -118,7 +118,7 @@ const projects: Project[] = [
     title: "UPSDM Certified Training",
     description: "Government-backed skill development programs in tailoring and beauty therapy, producing industry-ready professionals.",
     category: "Vocational",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA3mVW_d8whlvLoRFww93gL58v7rzAuyndWIu-RiiF3kZtqUGzy1hZrCkMoU8fENm-G2dlPa3IJL2iry5p1o6XJoHzM-0vCM03oZ8Tz0uDp-hNFBPtPq4Ff6fDrra1oKzm4vuHBGqVgx0D_L818v6KWvEmwPfhTt-h9H-xdKrCGCoOo8JKlEm7B8arm7rN9wF4g9TnPF7qGw_yWRy-eA5u4bXISzlRT5mBS9xifovjugkXkqTRajTF6gEWKWH_s498objmUR-FlcV8",
+    image: "/images/projects/upsdm-sewing.jpg",
     link: "/projects/upsdm-training",
   },
   {

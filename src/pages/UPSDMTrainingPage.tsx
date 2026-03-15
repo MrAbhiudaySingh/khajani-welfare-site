@@ -32,7 +32,7 @@ const UPSDMTrainingPage = () => {
           <img
             alt="A modern training classroom with students"
             className="w-full h-full object-cover object-center opacity-80"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3mVW_d8whlvLoRFww93gL58v7rzAuyndWIu-RiiF3kZtqUGzy1hZrCkMoU8fENm-G2dlPa3IJL2iry5p1o6XJoHzM-0vCM03oZ8Tz0uDp-hNFBPtPq4Ff6fDrra1oKzm4vuHBGqVgx0D_L818v6KWvEmwPfhTt-h9H-xdKrCGCoOo8JKlEm7B8arm7rN9wF4g9TnPF7qGw_yWRy-eA5u4bXISzlRT5mBS9xifovjugkXkqTRajTF6gEWKWH_s498objmUR-FlcV8"
+            src="/images/projects/upsdm-class.jpg"
           />
         </div>
         <div className="relative z-20 max-w-4xl mx-auto px-8 text-center py-20">
