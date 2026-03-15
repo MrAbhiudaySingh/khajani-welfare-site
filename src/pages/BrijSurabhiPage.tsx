@@ -29,7 +29,7 @@ const BrijSurabhiPage = () => {
           </Reveal>
           <Reveal variant="fade-left" delay={200} className="lg:col-span-7 relative">
             <div className="relative z-10 aspect-[4/5] md:aspect-[16/10] overflow-hidden rounded-sm shadow-xl">
-              <img alt="Brij Surabhi project activities" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVXNr6Hnnqm2BbpUiwGQAwr935-T4Oe0PXFN1VALA1jB3X2M3ecdF6I7qAHoBzcXUtfcIz-LjSxYXVNOQpQJIkykWiqMvqYbicumcnxsuXFfoT9zhZmdaO6jDEWY-eUoeX_rmNddyTwPaQuq7Wwj-EZAH-R8jAl190hv8xRM0D6GGzdXX1FOXwDFspD9gOFZcnZV6KMboxoUw-Q4_wbOM5uivNfR4qR2QTmexPUrso3BWwGUMwZRYo6dNH8ZiW3-y0ZoDK_S58bDA" />
+              <img alt="Brij Surabhi project activities" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" src="/images/projects/brij-surabhi-idol-painting.jpg" />
               <div className="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/60 to-transparent">
                 <p className="text-card font-display italic text-lg text-right">Serving the sacred land of Brij.</p>
               </div>
