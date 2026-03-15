@@ -112,7 +112,7 @@ const MediaPage = () => {
             </Reveal>
           ))}
         </div>
-
+      </main>
     </Layout>
   );
 };
