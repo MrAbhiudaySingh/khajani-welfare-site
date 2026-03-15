@@ -12,10 +12,25 @@ const VolunteerPage = () => {
     motivation: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert("Thank you for your application! We will reach out to schedule an orientation.");
-    setFormData({ name: "", email: "", interest: "Volunteer (Educational)", availableFrom: "", motivation: "" });
+    setIsSubmitting(true);
+    try {
+      await fetch("https://script.google.com/macros/s/AKfycbw_YY7ecAhA2tVYmh1xucywWrGdGEdFJqy6_rYtRXQRmMKTYLcg1YN9m8redond8rJR/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      alert("Thank you for your application! We will reach out to schedule an orientation.");
+      setFormData({ name: "", email: "", interest: "Volunteer (Educational)", availableFrom: "", motivation: "" });
+    } catch {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const opportunities = [
@@ -189,9 +204,10 @@ const VolunteerPage = () => {
             <div className="pt-6">
               <button
                 type="submit"
-                className="w-full bg-accent text-accent-foreground py-5 text-lg font-bold uppercase tracking-widest hover:bg-primary hover:text-primary-foreground transition-all"
+                disabled={isSubmitting}
+                className="w-full bg-accent text-accent-foreground py-5 text-lg font-bold uppercase tracking-widest hover:bg-primary hover:text-primary-foreground transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Submit Application
+                {isSubmitting ? "Submitting..." : "Submit Application"}
               </button>
             </div>
           </form>
