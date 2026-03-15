@@ -12,6 +12,13 @@ const newsClippings = [
   { image: "/images/media/news-clipping-7.jpg", source: "A Sipru", desc: "Reporting on Digital literacy programs and EduDaksh remedial education initiative launch.", date: "Dec 2021" },
   { image: "/images/media/news-clipping-8.jpg", source: "A Sipru / Dainik Jagran", desc: "Coverage of Jal Seva camps, skill training programs, and Brij-Anshuman inmate training initiative.", date: "2021-2022" },
   { image: "/images/media/news-clipping-9.jpg", source: "Regional Press", desc: "Multi-article compilation covering society registrations, women's day celebrations, and training milestones.", date: "2021-2023" },
+  { image: "/images/media/news-clipping-10.jpg", source: "The Times of India", desc: "Coverage of Mathura jail inmates producing PPE safety kits for staff and sanitation workers, developed with IIT Kanpur.", date: "2020" },
+  { image: "/images/media/news-clipping-11.jpg", source: "The Times of India", desc: "Detailed feature on PPE kit making, training and donation initiative at Mathura jail in collaboration with KWS.", date: "2020" },
+  { image: "/images/media/news-clipping-12.jpg", source: "Hindustan / Amar Ujala / Dainik Jagran", desc: "Compilation covering girls' education initiatives, Rakhi competition, free training programs, and Dainik Jagran feature.", date: "2021-2023" },
+  { image: "/images/media/news-clipping-13.jpg", source: "Amar Ujala / Hindustan", desc: "Coverage of blood donation camp, Women's Day honour by print media, online workshops for women's self-reliance, and International Women's Day celebrations.", date: "2019-2022" },
+  { image: "/images/media/news-clipping-14.jpg", source: "Dainik Jagran / Amar Ujala / Hindustan", desc: "Feature on women empowerment award ceremony, summer camp activities, and students showcasing Thakur Ji poshak and handicraft skills.", date: "2018" },
+  { image: "/images/media/news-clipping-15.jpg", source: "Regional Press", desc: "Coverage of online workshops for women's self-reliance and 'Hauslon Ki Udaan' recognition program.", date: "2021" },
+  { image: "/images/media/news-clipping-16.jpg", source: "Amar Ujala / Dainik Jagran", desc: "Women's excellence award ceremony by Khajani Welfare Society and coverage of outstanding women's contributions, March 2024.", date: "2024" },
 ];
 
 const pressReviews = [
