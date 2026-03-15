@@ -117,7 +117,7 @@ const EdudakshPage = () => {
             <div className="absolute inset-0 bg-primary/30 mix-blend-multiply z-10" />
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_OU3pEZP6Et84VvJWBLL5xIn8aBi7_ZL2Lq-wJM8YdXsuXNNtyOv8hMHIc7CIT8ES44rpQV-bgMPrhrHmMZIrqJ_s1yGM0eW_srJtKfygb0CAyE12P7WQuaoIeEBWOijGJWeVhCtk9F-vYC2Nm7lo5wjrSr3CF6BOoKz0H0lXNV2pjnsxnfAMN3Vm8XlIVK5x29QQn2E7IaE9exqhFyuVbhwjkHB2zYGPVEzZ_YJkw8w97-IqPJTS7qQvnjZ2lyg5Kf83-DJ5_x4')" }}
+              style={{ backgroundImage: "url('/images/projects/edudaksh-training.jpg')" }}
             />
           </Reveal>
         </div>
