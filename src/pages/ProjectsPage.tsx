@@ -111,7 +111,7 @@ const projects: Project[] = [
     title: "SHGs & Brij Surbhi Federation",
     description: "Empowering women through organized Self Help Groups, building sustainable livelihoods across 10 active SHGs with 120 women.",
     category: "Vocational",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC_xvQ4xPq8hpCF3v-KuxKMBmmZxS7Iz0eq-oeBCWSYhYc1BcW9vE4wvBk7N36Gt6OKG2F4YHB849pnRy9pkXi0KYrOw377Lmk45EslYdYPYRaPfjBwri7GA3bU6Fkd4YUzgTFrZVxJh_Zr1fQZ9JGIpeLnuZhDb49jAg5aLQiMZX-wKjkBsX4vmcdekikCE0ins3wi3KdaPPmF-GYLSdXKNgJbfB3UN5CXp1hpXr9ciTh2nleIaLv_J7NW_rJrwCBpHRmi4nDNAwQ",
+    image: "/images/projects/shg-federation.jpg",
     link: "/projects/shg-federation",
   },
   {
