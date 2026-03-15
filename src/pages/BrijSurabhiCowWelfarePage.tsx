@@ -9,7 +9,7 @@ const BrijSurabhiCowWelfarePage = () => {
       <section className="relative w-full h-[600px] bg-primary overflow-hidden">
         <div
           className="absolute inset-0 bg-center bg-cover bg-no-repeat opacity-50 mix-blend-overlay"
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOOJ7EbGJ11KdEFaYYJIu_QvQT5mHWoL0I-3QMSQhaPRk9NtrwEo9p3bL9uKulqiPINPrj0f9WM2HCb96AedEwT0gQvj-8QkN4KJdq6__E96kYsRhocnEgwFThEWrTCYkKWbcPjWjrcmfhOophNQvcf3YDyb0tgQcIm10C3qNtg_DRcQaBtLC6GCozeUIF4xS1ALl12_Xyks15WgV1bQ0eBD6APhOWK5HMYk7yKpPVvRHM9baPeRg97oRqrvmB7GJa_1kmts2CJwo')" }}
+          style={{ backgroundImage: "url('/images/projects/brij-surabhi-cow-craft.jpg')" }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-start pt-20">
           <Reveal variant="fade-up">
