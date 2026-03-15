@@ -10,7 +10,7 @@ const EdudakshPage = () => {
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgR5w_iKPIelWfMDvW0MsEgR_gkp08BPk8ss1w1x-VMxt31qraSf_TEw_M1bcYjiOWgjaoPlZqHUEJ4l9aCcEVEuomv_rEwBK5K6XNyrltSCxFEDlupuPGlSmfgo_do4XVc8hLcLYBPp9Ykoc6BOx2R7DbnQvP1ozz3zQ8rYohkpm6hG8EhCYy1hLYUEdhwxPo18D-CquC1DKFQUwZrdkBL7kUYXFAWbtrTkXKbYpNAU08Wrb15vspTC6giyPhtsD3ktpNmupQxJc')" }}
+          style={{ backgroundImage: "url('/images/projects/edudaksh-classroom.jpg')" }}
         />
         <Reveal variant="fade-up" className="relative z-20 text-center px-6 max-w-5xl mx-auto mt-12">
           <h1 className="text-primary-foreground font-display text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg">
