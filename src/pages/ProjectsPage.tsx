@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: "Brij-Surabhi Cow Welfare",
     description: "Harmonious blend of animal welfare and rural empowerment, transforming waste into eco-friendly Panchagavya commodities.",
     category: "Environment",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDOOJ7EbGJ11KdEFaYYJIu_QvQT5mHWoL0I-3QMSQhaPRk9NtrwEo9p3bL9uKulqiPINPrj0f9WM2HCb96AedEwT0gQvj-8QkN4KJdq6__E96kYsRhocnEgwFThEWrTCYkKWbcPjWjrcmfhOophNQvcf3YDyb0tgQcIm10C3qNtg_DRcQaBtLC6GCozeUIF4xS1ALl12_Xyks15WgV1bQ0eBD6APhOWK5HMYk7yKpPVvRHM9baPeRg97oRqrvmB7GJa_1kmts2CJwo",
+    image: "/images/projects/brij-surabhi-cow-craft.jpg",
     link: "/projects/brij-surabhi-cow-welfare",
   },
   {
