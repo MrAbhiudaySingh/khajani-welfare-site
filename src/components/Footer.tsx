@@ -13,11 +13,16 @@ const Footer = () => {
             <p className="text-sm opacity-70 leading-relaxed max-w-sm font-serif italic">
               A chronicle of change, a legacy of welfare. Documenting our journey towards a sustainable and healthy Braj since 2007.
             </p>
-            <div className="pt-4 border-t border-primary-foreground/10">
+            <div className="pt-4 border-t border-primary-foreground/10 space-y-2">
               <p className="text-xs uppercase tracking-wide opacity-50">
                 64/128, Gali Sales Tax, Dampier Nagar,<br />
                 Mathura – 281001, Uttar Pradesh
               </p>
+              <div className="flex flex-col gap-1 text-xs opacity-70">
+                <a href="tel:+918373990809" className="hover:text-accent transition">📞 +91-8373990809</a>
+                <a href="tel:+919868518738" className="hover:text-accent transition">📞 +91-9868518738</a>
+                <a href="mailto:khajaniwelfaresociety@gmail.com" className="hover:text-accent transition">✉️ khajaniwelfaresociety@gmail.com</a>
+              </div>
             </div>
           </div>
 
