@@ -1,11 +1,6 @@
 import Layout from "@/components/Layout";
 import { Reveal } from "@/components/Reveal";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Building2, GraduationCap, Users, Send } from "lucide-react";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
+import { Building2, GraduationCap, Users } from "lucide-react";
 
 const pillars = [
   {
