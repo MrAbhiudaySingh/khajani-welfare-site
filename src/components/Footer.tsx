@@ -51,7 +51,8 @@ const Footer = () => {
             <ul className="space-y-4">
               <li><a className="text-sm opacity-70 hover:text-accent transition" href="https://www.facebook.com/KhajaniWelfareSociety" target="_blank" rel="noopener noreferrer">Facebook</a></li>
               <li><a className="text-sm opacity-70 hover:text-accent transition" href="https://www.instagram.com/khajaniwelfaresociety/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-              <li><a className="text-sm opacity-70 hover:text-accent transition" href="https://www.youtube.com/@KHAJANIWELFARESOCIETY" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a className="text-sm opacity-70 hover:text-accent transition" href="https://x.com/Khajani_society" target="_blank" rel="noopener noreferrer">X (Twitter)</a></li>
+              <li><a className="text-sm opacity-70 hover:text-accent transition" href="https://www.linkedin.com/company/khajani-welfare-society/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
           </div>
         </div>
