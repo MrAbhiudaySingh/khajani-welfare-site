@@ -6,7 +6,7 @@ const skills = [
   {
     title: "Design & Conceptualization",
     desc: "Understanding traditional motifs and translating devotional themes into intricate textile patterns.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBUFy2pAP8q-0bseQYk4kQXA6qR_MjTNdDMAg0PqFXJH3m0ewQectcYEnVGjLP4CTBiwQ-twQ0lOUZzZ17LSYA5MTrlUWV8OlCozlozODvMAD7uWNLslrAMpqGZSvgakFVkgr-faZKVtLMlhHzWWM62XcNssYc62arE0LBkT0GtWs1qoNZgNT9PUhaiO3RXNUfV9bpaqJlQSTPXLqORw6xAe9gy-ENh-v0am1uL8egSPSj9P9iDAqU63oxmwPEPEPncxzJ9xwCMSA8",
+    image: "/images/projects/poshak-sanjhi.jpg",
     aspect: "aspect-[4/3]",
   },
   {
